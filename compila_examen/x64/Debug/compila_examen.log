@@ -1,0 +1,4 @@
+﻿  analizador_lex_canciones.c
+analizador_lex_canciones.c(891,1): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+analizador_lex_canciones.c(1058,28): warning C4244: 'inicializando': conversión de '__int64' a 'int'; posible pérdida de datos
+  compila_examen.vcxproj -> D:\UP\Compiladores\analizador_lexicografico_canciones\compila_examen\x64\Debug\compila_examen.exe
