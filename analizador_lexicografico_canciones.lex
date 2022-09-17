@@ -27,7 +27,7 @@ typedef struct
 elemento diccionario[MAX_PALABRAS];
 unsigned int cuenta_palabras_totales = 0;
 
-#define MAX_INCLUDE_DEPTH 2
+#define MAX_INCLUDE_DEPTH 161
 YY_BUFFER_STATE include_stack[MAX_INCLUDE_DEPTH]; /* PILA para archivos */
 
 unsigned int include_stack_ptr = 0;
@@ -37,16 +37,39 @@ unsigned int include_stack_ptr = 0;
 %option outfile="analizador_lex_canciones.c"
 
 
-PALABRA [A-ZÑÁÉÍÓÚa-zñáéíóú][A-ZÑÁÉÍÓÚa-zñáéíóú]+
+PALABRA         [A-ZÑÁÉÍÓÚa-zñáéíóú][A-ZÑÁÉÍÓÚa-zñáéíóú]+
+NO_CERO         [1-9]
+DIGITOS         [0-9]
+NUMERO_ENTERO   {NO_CERO}{DIGITOS}*
+GUION           [_]
+NUMERO_ENTERO_GUION {GUION}{NUMERO_ENTERO}
+PALABRAGUION    {GUION}{PALABRA}
+NOMBRE          {PALABRA}{PALABRAGUION}*{NUMERO_ENTERO_GUION}*
+NOMBREDIAGONAL  {NOMBRE}[/]
+EXTENSION       [.]{PALABRA}
+URL             {NOMBREDIAGONAL}*{NOMBRE}{EXTENSION}
+
+%x ANALIZADOR
 
 %%
 
-{PALABRA} {
-	 	printf("Palabra: %s\n", yytext);
+
+{NOMBRE} {
+	 	printf("Nombre: %s\n", yytext);
 	 	analiza_palabra_encontrada(yytext);
 	  }
 
-.       printf("Caracter invalido: %s\n", yytext);
+{URL} {
+    printf("URL: %s\n", yytext);
+}
+
+
+<ANALIZADOR>{PALABRA} {
+	 	printf("Palabra: %s\n", yytext);
+	 	analiza_palabra_encontrada(yytext);
+	  }
+","
+.       printf("Caracter invalido %s\n",yytext);      
 %%
 
 int main( int argc, char* argv[] )
@@ -77,7 +100,6 @@ int main( int argc, char* argv[] )
 	printf("Listado de palabras encontradas\n");
 	for (unsigned int j = 1; j <= cuenta_palabras_totales; j++)
 		printf("% s tiene %d repeticiones en el archivo\n", diccionario[j].palabra, diccionario[j].cantidad);
-	printf("\nListado de citas por fecha\n");
 	return(0);
 }
 
