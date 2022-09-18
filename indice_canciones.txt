@@ -18,3 +18,13 @@ Historia_de_un_amor,Bolero,Los_Panchos, Letras/Boleros/Los_panchos/HIstoria_de_u
 Nuestro_juramento,Bolero,Julio_jaramillo, Letras/Boleros/Julio_jaramillo/Nuestro_juramento.txt
 Odiame,Bolero,Julio_jaramillo, Letras/Boleros/Julio_jaramillo/Odiame.txt
 El_aguacate,Bolero,Julio_jaramillo, Letras/Boleros/Julio_jaramillo/El_aguacate.txt
+Si_una_vez,Cumbia,Selena, Letras\Cumbia\Selena\Si_una_vez.txt
+Amor_prohibido,Cumbia,Selena, Letras\Cumbia\Selena\Amor_prohibido.txt
+Como_la_flor,Cumbia,Selena, Letras\Cumbia\Selena\Como_la_flor.txt
+Mil_horas,Cumbia,La_sonora_dinamita, Letras\Cumbia\La_sonora_dinamita\Mil_horas.txt
+Que_nadie_sepa_mi_sufrir,Cumbia,La_sonora_dinamita, Letras\Cumbia\La_sonora_dinamita\Que_nadie_sepa_mi_sufrir.txt
+Mi_cucú,Cumbia,La_sonora_dinamita, Letras\Cumbia\La_sonora_dinamita\Mi_cucu.txt
+Otra_noche,Cumbia,Los_angeles_azules, Letras\Cumbia\Los_angeles_azules.txt\Otra_noche.txt
+Amor_a_primera_vista,Cumbia,Los_angeles_azules, Letras\Cumbia\Los_angeles_azules.txt\Amor_a_primera_vista.txt
+Como_te_voy_a_olvidar,Cumbia,Los_angeles_azules, Letras\Cumbia\Los_angeles_azules.txt\Como_te_voy_a_olvidar.txt
+El_afilador,Cumbia,La_sonora_dinamita, Letras\Cumbia\La_sonora_dinamita\El_afilador.txt
