@@ -1,4 +1,7 @@
 %{
+
+int include_stack_ptr = 0;
+
 #pragma warning(disable: 4996 6387 6011 6385)
 #include <stdio.h>
 #include <string.h>
@@ -14,9 +17,12 @@ void ordena_diccionario(void);
 #define MAX_PALABRAS 5000
 #define MAX_LONGITUD 200
 
+unsigned int nivel_de_includes = 0;
 char directorio[MAX_LONGITUD]="";
 char archivo_de_entrada[MAX_LONGITUD]="";
+char archivo_de_entrada1[MAX_LONGITUD]="";
 char archivo_a_abrir[MAX_LONGITUD]="";
+char archivo_a_abrir1[MAX_LONGITUD]="";
 
 typedef struct 
 {
@@ -27,10 +33,9 @@ typedef struct
 elemento diccionario[MAX_PALABRAS];
 unsigned int cuenta_palabras_totales = 0;
 
-#define MAX_INCLUDE_DEPTH 161
+#define MAX_INCLUDE_DEPTH 10
 YY_BUFFER_STATE include_stack[MAX_INCLUDE_DEPTH]; /* PILA para archivos */
 
-unsigned int include_stack_ptr = 0;
 %}
 
 %option noyywrap
@@ -56,13 +61,43 @@ URL                 {NOMBRE_DIAGONAL}*{NOMBRE}{EXTENSION}
 
 {NOMBRE} {
 	 	printf("Nombre: %s\n", yytext);
-	 	analiza_palabra_encontrada(yytext);
 	  }
 
-{URL} {
-    printf("URL: %s\n", yytext);
-}
+{URL} { /* ir a abrir el archivo include */
+			if ( include_stack_ptr >= MAX_INCLUDE_DEPTH )
+			{
+			    printf("Archivos include sobrepasan la profundidad maxima\n" );
+			    exit(1);
+			}
+			yytext;
+            strcpy(archivo_de_entrada1, yytext);
+            strcpy(archivo_a_abrir1, directorio);
+            strcat(archivo_a_abrir1, archivo_de_entrada1);
+            yyin = fopen(archivo_a_abrir1, "r" );
+			if (!yyin )
+			{
+			   printf("Error al abrir el archivo %s\n",archivo_a_abrir1 );
+			   exit(1);
+			}
+			printf("Cambiando la lectura al archivo %s\n",archivo_a_abrir1 );
+			include_stack[include_stack_ptr++]=YY_CURRENT_BUFFER;
+			yy_switch_to_buffer(yy_create_buffer( yyin, YY_BUF_SIZE ) );
+			if (include_stack_ptr > nivel_de_includes)
+				nivel_de_includes = include_stack_ptr;
+			BEGIN(ANALIZADOR);
+		}
 
+<<EOF>> { /* Si se detecta el fin de archivo se retorna */
+		if ( --include_stack_ptr < 0 )
+		    yyterminate();
+		else
+		{
+			yy_delete_buffer( YY_CURRENT_BUFFER );
+			yy_switch_to_buffer( include_stack[include_stack_ptr] );
+			printf("Cerrando el archivo %s\n",archivo_a_abrir );
+		}
+		BEGIN(INITIAL);
+	}
 
 <ANALIZADOR>{PALABRA} {
 	 	printf("Palabra: %s\n", yytext);
@@ -77,7 +112,6 @@ int main( int argc, char* argv[] )
     setlocale(LC_ALL, ".UTF8");
 	if ( argc == 3 )
 	{
-        
 		strcpy(directorio, argv[1]);
 		strcat(directorio, "\\");
 		strcpy(archivo_de_entrada, argv[2]);

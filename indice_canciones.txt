@@ -1,20 +1,20 @@
-La_casa_del_sol_naciente, Blues, Javier_Batiz, analizador_lexicografico_canciones/Letras/Blues/Javier_Batiz/La_casa_del_sol_naciente.txt
-La_montaña, Blues, Javier_Batiz, analizador_lexicografico_canciones/Letras/Blues/Javier_Batiz/La_montania.txt
-Si_estuvieras_aqui, Blues, Javier_Batiz, analizador_lexicografico_canciones/Letras/Blues/Javier_Batiz/Si_estuvieras_aqui.txt
-Azul, Blues, Real_de_catorce, analizador_lexicografico_canciones/Letras/Blues/Real_de_catorce/Azul.txt
-Beso_de_ginebra, Blues, Real_de_catorce, analizador_lexicografico_canciones/Letras/Blues/Real_de_catorce/Beso_de_ginebra.txt
-Mujer_sucia, Blues, Real_de_catorce, analizador_lexicografico_canciones/Letras/Blues/Real_de_catorce/Mujer_sucia.txt
-Baby_me_vuelves_loco, Blues, Guadalupe_Plata, analizador_lexicografico_canciones/Letras/Blues/Guadalupe_Plata/Baby_me_vuelves_loco.txt
-Calle_24, Blues, Guadalupe_Plata, analizador_lexicografico_canciones/Letras/Blues/Guadalupe_Plata/Calle_24.txt
-Milana, Blues, Guadalupe_Plata, analizador_lexicografico_canciones/Letras/Blues/Guadalupe_Plata/Milana.txt
-Que_he_sacado_con_quererte, Blues, Guadalupe_Plata, analizador_lexicografico_canciones/Letras/Blues/Guadalupe_Plata/Que_he_sacado_con_quererte.txt
-Abrázame_Muy_Fuerte,Bolero,Juan Gabriel, analizador_lexicografico_canciones/Letras/Boleros/Juan_gabriel/Abrazame_muy_fuerte.txt
-Hasta_que_te_conocí,Bolero,Juan_Gabriel, analizador_lexicografico_canciones/Letras/Boleros/Juan_gabriel/Hasta_que_te_conoci.txt
-Buenos_dias_señor_sol,Bolero,Juan_Gabriel, analizador_lexicografico_canciones/Letras/Boleros/Juan_gabriel/Buenos_dias_señor_sol.txt
-Amor_Eterno,Bolero,Juan_Gabriel, analizador_lexicografico_canciones/Letras/Boleros/Juan_gabriel/Amor_eterno.txt
-Triunfamos,Bolero,Los_Panchos, analizador_lexicografico_canciones/Letras/Boleros/Los_panchos/Triunfamos.txt
-Piel_canela,Bolero,Los_Panchos, analizador_lexicografico_canciones/Letras/Boleros/Los_panchos/Piel_canela.txt
-Historia_de_un_amor,Bolero,Los_Panchos, analizador_lexicografico_canciones/Letras/Boleros/Los_panchos/HIstoria_de_un_amor.txt
-Nuestro_juramento,Bolero,Julio_jaramillo, analizador_lexicografico_canciones/Letras/Boleros/Julio_jaramillo/Nuestro_juramento.txt
-Odiame,Bolero,Julio_jaramillo, analizador_lexicografico_canciones/Letras/Boleros/Julio_jaramillo/Odiame.txt
-El_aguacate,Bolero,Julio_jaramillo, analizador_lexicografico_canciones/Letras/Boleros/Julio_jaramillo/El_aguacate.txt
+La_casa_del_sol_naciente, Blues, Javier_Batiz, Letras/Blues/Javier_Batiz/La_casa_del_sol_naciente.txt
+La_montaña, Blues, Javier_Batiz, Letras/Blues/Javier_Batiz/La_montania.txt
+Si_estuvieras_aqui, Blues, Javier_Batiz, Letras/Blues/Javier_Batiz/Si_estuvieras_aqui.txt
+Azul, Blues, Real_de_catorce, Letras/Blues/Real_de_catorce/Azul.txt
+Beso_de_ginebra, Blues, Real_de_catorce, Letras/Blues/Real_de_catorce/Beso_de_ginebra.txt
+Mujer_sucia, Blues, Real_de_catorce, Letras/Blues/Real_de_catorce/Mujer_sucia.txt
+Baby_me_vuelves_loco, Blues, Guadalupe_Plata, Letras/Blues/Guadalupe_Plata/Baby_me_vuelves_loco.txt
+Calle_24, Blues, Guadalupe_Plata, Letras/Blues/Guadalupe_Plata/Calle_24.txt
+Milana, Blues, Guadalupe_Plata, Letras/Blues/Guadalupe_Plata/Milana.txt
+Que_he_sacado_con_quererte, Blues, Guadalupe_Plata, Letras/Blues/Guadalupe_Plata/Que_he_sacado_con_quererte.txt
+Abrázame_Muy_Fuerte,Bolero,Juan Gabriel, Letras/Boleros/Juan_gabriel/Abrazame_muy_fuerte.txt
+Hasta_que_te_conocí,Bolero,Juan_Gabriel, Letras/Boleros/Juan_gabriel/Hasta_que_te_conoci.txt
+Buenos_dias_señor_sol,Bolero,Juan_Gabriel, Letras/Boleros/Juan_gabriel/Buenos_dias_señor_sol.txt
+Amor_Eterno,Bolero,Juan_Gabriel, Letras/Boleros/Juan_gabriel/Amor_eterno.txt
+Triunfamos,Bolero,Los_Panchos, Letras/Boleros/Los_panchos/Triunfamos.txt
+Piel_canela,Bolero,Los_Panchos, Letras/Boleros/Los_panchos/Piel_canela.txt
+Historia_de_un_amor,Bolero,Los_Panchos, Letras/Boleros/Los_panchos/HIstoria_de_un_amor.txt
+Nuestro_juramento,Bolero,Julio_jaramillo, Letras/Boleros/Julio_jaramillo/Nuestro_juramento.txt
+Odiame,Bolero,Julio_jaramillo, Letras/Boleros/Julio_jaramillo/Odiame.txt
+El_aguacate,Bolero,Julio_jaramillo, Letras/Boleros/Julio_jaramillo/El_aguacate.txt

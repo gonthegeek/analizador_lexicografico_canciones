@@ -383,6 +383,9 @@ char *yytext;
 #line 1 "analizador_lexicografico_canciones.lex"
 #define INITIAL 0
 #line 2 "analizador_lexicografico_canciones.lex"
+
+int include_stack_ptr = 0;
+
 #pragma warning(disable: 4996 6387 6011 6385)
 #include <stdio.h>
 #include <string.h>
@@ -398,9 +401,12 @@ void ordena_diccionario(void);
 #define MAX_PALABRAS 5000
 #define MAX_LONGITUD 200
 
+unsigned int nivel_de_includes = 0;
 char directorio[MAX_LONGITUD]="";
 char archivo_de_entrada[MAX_LONGITUD]="";
+char archivo_de_entrada1[MAX_LONGITUD]="";
 char archivo_a_abrir[MAX_LONGITUD]="";
+char archivo_a_abrir1[MAX_LONGITUD]="";
 
 typedef struct 
 {
@@ -411,13 +417,12 @@ typedef struct
 elemento diccionario[MAX_PALABRAS];
 unsigned int cuenta_palabras_totales = 0;
 
-#define MAX_INCLUDE_DEPTH 161
+#define MAX_INCLUDE_DEPTH 10
 YY_BUFFER_STATE include_stack[MAX_INCLUDE_DEPTH]; /* PILA para archivos */
 
-unsigned int include_stack_ptr = 0;
 #define ANALIZADOR 1
 
-#line 421 "analizador_lex_canciones.c"
+#line 426 "analizador_lex_canciones.c"
 
 /* Macros after this point can all be overridden by user definitions in
  * section 1.
@@ -568,11 +573,11 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 54 "analizador_lexicografico_canciones.lex"
+#line 59 "analizador_lexicografico_canciones.lex"
 
 
 
-#line 576 "analizador_lex_canciones.c"
+#line 581 "analizador_lex_canciones.c"
 
 	if ( yy_init )
 		{
@@ -657,22 +662,56 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 57 "analizador_lexicografico_canciones.lex"
+#line 62 "analizador_lexicografico_canciones.lex"
 {
 	 	printf("Nombre: %s\n", yytext);
-	 	analiza_palabra_encontrada(yytext);
 	  }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 62 "analizador_lexicografico_canciones.lex"
-{
-    printf("URL: %s\n", yytext);
-}
+#line 66 "analizador_lexicografico_canciones.lex"
+{ /* ir a abrir el archivo include */
+			if ( include_stack_ptr >= MAX_INCLUDE_DEPTH )
+			{
+			    printf("Archivos include sobrepasan la profundidad maxima\n" );
+			    exit(1);
+			}
+			yytext;
+            strcpy(archivo_de_entrada1, yytext);
+            strcpy(archivo_a_abrir1, directorio);
+            strcat(archivo_a_abrir1, archivo_de_entrada1);
+            yyin = fopen(archivo_a_abrir1, "r" );
+			if (!yyin )
+			{
+			   printf("Error al abrir el archivo %s\n",archivo_a_abrir1 );
+			   exit(1);
+			}
+			printf("Cambiando la lectura al archivo %s\n",archivo_a_abrir1 );
+			include_stack[include_stack_ptr++]=YY_CURRENT_BUFFER;
+			yy_switch_to_buffer(yy_create_buffer( yyin, YY_BUF_SIZE ) );
+			if (include_stack_ptr > nivel_de_includes)
+				nivel_de_includes = include_stack_ptr;
+			BEGIN(ANALIZADOR);
+		}
+	YY_BREAK
+case YY_STATE_EOF(INITIAL):
+case YY_STATE_EOF(ANALIZADOR):
+#line 90 "analizador_lexicografico_canciones.lex"
+{ /* Si se detecta el fin de archivo se retorna */
+		if ( --include_stack_ptr < 0 )
+		    yyterminate();
+		else
+		{
+			yy_delete_buffer( YY_CURRENT_BUFFER );
+			yy_switch_to_buffer( include_stack[include_stack_ptr] );
+			printf("Cerrando el archivo %s\n",archivo_a_abrir );
+		}
+		BEGIN(INITIAL);
+	}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 67 "analizador_lexicografico_canciones.lex"
+#line 102 "analizador_lexicografico_canciones.lex"
 {
 	 	printf("Palabra: %s\n", yytext);
 	 	analiza_palabra_encontrada(yytext);
@@ -680,23 +719,20 @@ YY_RULE_SETUP
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 71 "analizador_lexicografico_canciones.lex"
+#line 106 "analizador_lexicografico_canciones.lex"
 
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 72 "analizador_lexicografico_canciones.lex"
+#line 107 "analizador_lexicografico_canciones.lex"
 printf("Caracter invalido %s\n",yytext);      
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 73 "analizador_lexicografico_canciones.lex"
+#line 108 "analizador_lexicografico_canciones.lex"
 ECHO;
 	YY_BREAK
-#line 697 "analizador_lex_canciones.c"
-case YY_STATE_EOF(INITIAL):
-case YY_STATE_EOF(ANALIZADOR):
-	yyterminate();
+#line 736 "analizador_lex_canciones.c"
 
 	case YY_END_OF_BUFFER:
 		{
@@ -1580,7 +1616,7 @@ int main()
 	return 0;
 	}
 #endif
-#line 73 "analizador_lexicografico_canciones.lex"
+#line 108 "analizador_lexicografico_canciones.lex"
 
 
 int main( int argc, char* argv[] )
@@ -1588,7 +1624,6 @@ int main( int argc, char* argv[] )
     setlocale(LC_ALL, ".UTF8");
 	if ( argc == 3 )
 	{
-        
 		strcpy(directorio, argv[1]);
 		strcat(directorio, "\\");
 		strcpy(archivo_de_entrada, argv[2]);

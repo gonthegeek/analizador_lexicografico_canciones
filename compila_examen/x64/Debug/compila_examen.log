@@ -1,4 +1,7 @@
 ﻿  analizador_lex_canciones.c
-analizador_lex_canciones.c(934,1): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
-analizador_lex_canciones.c(1101,28): warning C4244: 'inicializando': conversión de '__int64' a 'int'; posible pérdida de datos
+analizador_lexicografico_canciones.lex(73,57): warning C4047: 'función': 'const char *' es distinto en los niveles de direccionamiento indirecto de 'size_t'
+analizador_lexicografico_canciones.lex(73,55): warning C4024: 'strcpy': tipos distintos para el parámetro formal y el parámetro real 2
+analizador_lexicografico_canciones.lex(85,26): warning C4018: '>': no coinciden signed/unsigned
+analizador_lex_canciones.c(969,1): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+analizador_lex_canciones.c(1136,28): warning C4244: 'inicializando': conversión de '__int64' a 'int'; posible pérdida de datos
   compila_examen.vcxproj -> D:\UP\Compiladores\analizador_lexicografico_canciones\compila_examen\x64\Debug\compila_examen.exe
