@@ -38,3 +38,13 @@ Rene, Hip_Hop_Rap, Residente, Letras\Hip_Hop_Rap\Residente\Rene.txt
 Asi_soy, Hip_Hop_Rap, Santa_fe_klan, Letras\Hip_Hop_Rap\Santa_fe_klan\Asi_soy.txt
 Cuidando_el_territorio, Hip_Hop_Rap, Santa_fe_klan, Letras\Hip_Hop_Rap\Santa_fe_klan\Cuidando_el_territorio.txt
 Te_ire_a_buscar, Hip_Hop_Rap, Santa_fe_klan, Letras\Hip_Hop_Rap\Santa_fe_klan\Te_ire_a_buscar.txt
+Entrega_total, Jazz, Andrea_basef, Letras\Jazz\Andrea_basef\Entrega_total.txt
+Fuego_bajo_tu_piel, Jazz, Andrea_basef, Letras\Jazz\Andrea_basef\Fuego_bajo_tu_piel.txt
+Regalame_esta_noche, Jazz, Andrea_basef, Letras\Jazz\Andrea_basef\Regalame_esta_noche.txt
+Adoro, Jazz, Julia_Vari, Letras\Jazz\Julia_vari\Adoro.txt
+Cancion_de_despedida, Jazz, Julia_Vari, Letras\Jazz\Julia_vari\Cancion_de_despedida.txt
+Yo_se_que_volveras, Jazz, Julia_Vari, Letras\Jazz\Julia_vari\Yo_se_que_volveras.txt
+Dia_nublado, Jazz, Iraida_noriega, Letras\Jazz\Iraida_noriega\Dia_nublado.txt
+Pobre_de_mi, Jazz, Iraida_noriega, Letras\Jazz\Iraida_noriega\Pobre_de_mi.txt
+Recurdos_de_Ypacarai, Jazz, Iraida_noriega, Letras\Jazz\Iraida_noriega\Recuerdos_de_Ypacarai.txt
+Tiempos_hibridos, Jazz, Iraida_noriega, Letras\Jazz\Iraida_noriega\Tiempo_hibridos.txt
