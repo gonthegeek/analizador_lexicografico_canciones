@@ -37,17 +37,17 @@ unsigned int include_stack_ptr = 0;
 %option outfile="analizador_lex_canciones.c"
 
 
-PALABRA         [A-ZÑÁÉÍÓÚa-zñáéíóú][A-ZÑÁÉÍÓÚa-zñáéíóú]+
-NO_CERO         [1-9]
-DIGITOS         [0-9]
-NUMERO_ENTERO   {NO_CERO}{DIGITOS}*
-GUION           [_]
+PALABRA             [A-ZÑÁÉÍÓÚa-zñáéíóú][A-ZÑÁÉÍÓÚa-zñáéíóú]+
+NO_CERO             [1-9]
+DIGITOS             [0-9]
+NUMERO_ENTERO       {NO_CERO}{DIGITOS}*
+GUION               [_]
 NUMERO_ENTERO_GUION {GUION}{NUMERO_ENTERO}
-PALABRAGUION    {GUION}{PALABRA}
-NOMBRE          {PALABRA}{PALABRAGUION}*{NUMERO_ENTERO_GUION}*
-NOMBREDIAGONAL  {NOMBRE}[/]
-EXTENSION       [.]{PALABRA}
-URL             {NOMBREDIAGONAL}*{NOMBRE}{EXTENSION}
+PALABRA_GUION       {GUION}{PALABRA}
+NOMBRE              {PALABRA}{PALABRA_GUION}*{NUMERO_ENTERO_GUION}*
+NOMBRE_DIAGONAL     {NOMBRE}[/]
+EXTENSION           [.]{PALABRA}
+URL                 {NOMBRE_DIAGONAL}*{NOMBRE}{EXTENSION}
 
 %x ANALIZADOR
 
