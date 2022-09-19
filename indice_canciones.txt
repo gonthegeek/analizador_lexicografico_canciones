@@ -18,133 +18,133 @@ Historia_de_un_amor,Bolero,Los_Panchos, Letras/Boleros/Los_panchos/HIstoria_de_u
 Nuestro_juramento,Bolero,Julio_jaramillo, Letras/Boleros/Julio_jaramillo/Nuestro_juramento.txt
 Odiame,Bolero,Julio_jaramillo, Letras/Boleros/Julio_jaramillo/Odiame.txt
 El_aguacate,Bolero,Julio_jaramillo, Letras/Boleros/Julio_jaramillo/El_aguacate.txt
-Si_una_vez,Cumbia,Selena, Letras\Cumbia\Selena\Si_una_vez.txt
-Amor_prohibido,Cumbia,Selena, Letras\Cumbia\Selena\Amor_prohibido.txt
-Como_la_flor,Cumbia,Selena, Letras\Cumbia\Selena\Como_la_flor.txt
-Mil_horas,Cumbia,La_sonora_dinamita, Letras\Cumbia\La_sonora_dinamita\Mil_horas.txt
-Que_nadie_sepa_mi_sufrir,Cumbia,La_sonora_dinamita, Letras\Cumbia\La_sonora_dinamita\Que_nadie_sepa_mi_sufrir.txt
-Mi_cucú,Cumbia,La_sonora_dinamita, Letras\Cumbia\La_sonora_dinamita\Mi_cucu.txt
-Otra_noche,Cumbia,Los_angeles_azules, Letras\Cumbia\Los_angeles_azules.txt\Otra_noche.txt
-Amor_a_primera_vista,Cumbia,Los_angeles_azules, Letras\Cumbia\Los_angeles_azules.txt\Amor_a_primera_vista.txt
-Como_te_voy_a_olvidar,Cumbia,Los_angeles_azules, Letras\Cumbia\Los_angeles_azules.txt\Como_te_voy_a_olvidar.txt
-El_afilador,Cumbia,La_sonora_dinamita, Letras\Cumbia\La_sonora_dinamita\El_afilador.txt
-Culon_culito,Hip_Hop_Rap, Cartel_de_santa, Letras\Hip_Hop_Rap\Cartel_de_santa\Culon_culito.txt
-Extasis, Hip_Hop_Rap, Cartel_de_santa, Letras\Hip_Hop_Rap\Cartel_de_santa\Extasis.txt
-Si_te_vienen_a_contar, Hip_Hop_Rap, Cartel_de_santa, Letras\Hip_Hop_Rap\Cartel_de_santa\Si_te_vienen_a_contar.txt
-Todas_mueren_por_mi, Hip_Hop_Rap, Cartel_de_santa, Letras\Hip_Hop_Rap\Cartel_de_santa\Todas_mueren_por_mi.txt
-Bzrp_music_session_vol_49, Hip_Hop_Rap, Residente, Letras\Hip_Hop_Rap\Residente\Bzrp_music_session_vol_49.txt
-Rap_bruto, Hip_Hop_Rap, Residente, Letras\Hip_Hop_Rap\Residente\Rap_bruto.txt
-Rene, Hip_Hop_Rap, Residente, Letras\Hip_Hop_Rap\Residente\Rene.txt
-Asi_soy, Hip_Hop_Rap, Santa_fe_klan, Letras\Hip_Hop_Rap\Santa_fe_klan\Asi_soy.txt
-Cuidando_el_territorio, Hip_Hop_Rap, Santa_fe_klan, Letras\Hip_Hop_Rap\Santa_fe_klan\Cuidando_el_territorio.txt
-Te_ire_a_buscar, Hip_Hop_Rap, Santa_fe_klan, Letras\Hip_Hop_Rap\Santa_fe_klan\Te_ire_a_buscar.txt
-Entrega_total, Jazz, Andrea_basef, Letras\Jazz\Andrea_basef\Entrega_total.txt
-Fuego_bajo_tu_piel, Jazz, Andrea_basef, Letras\Jazz\Andrea_basef\Fuego_bajo_tu_piel.txt
-Regalame_esta_noche, Jazz, Andrea_basef, Letras\Jazz\Andrea_basef\Regalame_esta_noche.txt
-Adoro, Jazz, Julia_Vari, Letras\Jazz\Julia_vari\Adoro.txt
-Cancion_de_despedida, Jazz, Julia_Vari, Letras\Jazz\Julia_vari\Cancion_de_despedida.txt
-Yo_se_que_volveras, Jazz, Julia_Vari, Letras\Jazz\Julia_vari\Yo_se_que_volveras.txt
-Dia_nublado, Jazz, Iraida_noriega, Letras\Jazz\Iraida_noriega\Dia_nublado.txt
-Pobre_de_mi, Jazz, Iraida_noriega, Letras\Jazz\Iraida_noriega\Pobre_de_mi.txt
-Recurdos_de_Ypacarai, Jazz, Iraida_noriega, Letras\Jazz\Iraida_noriega\Recuerdos_de_Ypacarai.txt
-Tiempos_hibridos, Jazz, Iraida_noriega, Letras\Jazz\Iraida_noriega\Tiempo_hibridos.txt
-Que_locura_enamorarme_de_ti,Mambo,Eddie_santiago, Letras\Mambo\Eddie_santiago\Que_locura_enamorarme_de_ti.txt
-Tu_amigo_o_tu_amante,Mambo,Eddie_santiago, Letras\Mambo\Eddie_santiago\Tu_amigo_o_tu_amante.txt
-Lluvia,Mambo,Eddie_santiago, Letras\Mambo\Eddie_santiago\Lluvia.txt
-Mía,Mambo,Eddie_santiago,Letras\Mambo\Eddie_santiago\Mia.txt
-Tiburon_a_la_vista,Mambo,Los_wawanco,Letras\Mambo\Los_wawanco\Tiburon_a_la_vista.txt
-Yo_quiero_una_novia_pechugona,Mambo,Los_wawanco,Letras\Mambo\Los_wawanco\Yo_quiero_una_novia_pechugona.txt
-Palo_bonito,Mambo,Los_wawanco,Letras\Mambo\Los_wawanco\Palo_bonito.txt
-Amor_de_mis_amores,Mambo,Omara_portuondo, Letras\Mambo\Omara_portuondo\Amor_de_mis_amores.txt
-Veinte_años,Mambo,Omara_portuondo, Letras\Mambo\Omara_portuondo\Veinte_anios.txt
-Tal_vez,Mambo,Omara_portuondo, Letras\Mambo\Omara_portuondo\Tal_vez.txt
-El_africano, Merengue, Wilfrido_vargas, Letras\Merengue\Wilfrido_vargas\El_africano.txt
-El_baile_del_perrito,Merengue,  Wilfrido_vargas, Letras\Merengue\Wilfrido_vargas\El_baile_del_perrito.txt
-El_jardinero, Merengue, Wilfrido_vargas, Letras\Merengue\Wilfrido_vargas\El_jardinero.txt
-La_duenia_del_swing, Merengue, Los_hermanos_rosario, Letras\Merengue\Los_hermanos_rosario\La_duenia_del_swing.txt
-Rompecintura, Merengue, Los_hermanos_rosario, Letras\Merengue\Los_hermanos_rosario\Rompecintura.txt
-Video_clip, Merengue, Los_hermanos_rosario, Letras\Merengue\Los_hermanos_rosario\Video_clip.txt
-La_quiero_a_morir, Merengue, Sergio_vargas, Letras\Merengue\Sergio_vargas\La_quiero_a_morir.txt
-La_ventanita, Merengue, Sergio_vargas, Letras\Merengue\Sergio_vargas\La_ventanita.txt
-Ni_tu_ni_yo, Merengue, Sergio_vargas, Letras\Merengue\Sergio_vargas\Ni_tu_ni_yo.txt
-Si_algun_dia_la_ves, Merengue, Sergio_vargas, Letras\Merengue\Sergio_vargas\Si_algun_dia_la_ves.txt
-Amante_bandido, Pop, Ha_Ash, Letras\Pop\Ha_Ash\Amante_Bandido.txt
-Estes_donde_estes, Pop, Ha_Ash, Letras\Pop\Ha_Ash\Estes_Donde_Estes.txt
-Morena_mia, Pop, Ha_Ash, Letras\Pop\Ha_Ash\Morena_Mia.txt
-Que_hago_yo, Pop, Ha_Ash, Letras\Pop\Ha_Ash\Que_Hago_Yo.txt
-Con_quien_se_queda_el_perro, Pop, Jesse_joy, Letras\Pop\Jesse_Joy\Con_Quien_Se_Queda_El_Perro.txt
-Dueles, Pop, Jesse_Joy, Letras\Pop\Jesse_Joy\Dueles.txt
-Espacio_Sideral, Pop, Jesse_joy, Letras\Pop\Jesse_Joy\Espacio_Sideral.txt
-Noviembre_sin_ti, Pop, Reik, Letras\Pop\Reik\Noviembre_Sin_Ti.txt
-Que_vida_la_mia, Pop, Reik, Letras\Pop\Reik\Que_Vida_La_Mia.txt
-Yo_quisiera,Pop, Reik, Letras\Pop\Reik\Yo_Quisiera.txt
-Siempre_te_voy_a_querer, Ranchera, Calibre_50, Letras\Ranchera\Calibre_50\Siempre_te_voy_a_querer.txt
-A_la_antigüita, Ranchera, Calibre_50, Letras\Ranchera\Calibre_50\A_la_antiguita.txt
-Si_te_pudiera_mentir, Ranchera, Calibre_50, Letras\Ranchera\Calibre_50\Si_te_pudiera_mentir.txt
-Vas_a_llorar_por_mi,Ranchera,Banda_el_recodo, Letras\Ranchera\Banda_el_recodo\Vas_a_llorar_por_mi.txt
-La_mejor_de_todas,Ranchera,Banda_el_recodo, Letras\Ranchera\Banda_el_recodo\La_mejor_de_todas.txt
-Y_llegaste_tú,Ranchera,Banda_el_recodo, Letras\Ranchera\Banda_el_recodo\Y_llegaste_tu.txt
-Te_presumo, Ranchera, Banda_el_recodo, Letras\Ranchera\Banda_el_recodo\Te_presumo.txt
-Una_en_el_dia_y_la_otra_en_la_noche, Ranchera, Banda_Tierra_Sagrada, Letras\Ranchera\Banda_Tierra_Sagrada\Una_en_el_dia_y_la_otra_en_la_noche.txt
-El_bueno_y_el_malo, Ranchera, Banda_Tierra_Sagrada, Letras\Ranchera\Banda_Tierra_Sagrada\El_bueno_y_el_malo.txt
-Soy_un_desmadre, Ranchera,Banda_Tierra_Sagrada, Letras\Ranchera\Banda_Tierra_Sagrada\Soy_un_desmadre.txt
-La_corriente, Reggaeton, Bad_Bunny, Letras\Reggaeton\Bad_Bunny\La_Corriente.txt
-Que_malo, Reggaeton, Bad_Bunny, Letras\Reggaeton\Bad_Bunny\Que_Malo.txt
-Una_vez, Reggaeton, Bad_Bunny, Letras\Reggaeton\Bad_Bunny\Una_Vez.txt
-512, Reggaeton, Mora, Letras\Reggaeton\Mora\512.txt
-La_inocente, Reggaeton, Mora, Letras\Reggaeton\Mora\La_Inocente.txt
-Volando, Reggaeton, Mora, Letras\Reggaeton\Mora\Volando.txt
-Caramelo, Reggaeton, Ozuna, Letras\Reggaeton\Ozuna\Caramelo.txt
-Permitame, Reggaeton, Ozuna, Letras\Reggaeton\Ozuna\Permitame.txt
-Solos, Reggaeton, Ozuna, Letras\Reggaeton\Ozuna\Solos.txt
-Una_Locura, Reggaeton, Ozuna, Letras\Reggaeton\Ozuna\Una_Locura.txt
-Entre_Dos_Tierras, Rock, Heroes_Del_Silencio, Letras\Rock\Heroes_Del_Silencio\Entre_Dos_Tierras.txt
-La_Chispa_Adecuada, Rock, Heroes_Del_Silencio, Letras\Rock\Heroes_Del_Silencio\La_Chispa_Adecuada.txt
-Maldito_Duende, Rock, Heroes_Del_Silencio, Letras\Rock\Heroes_Del_Silencio\Maldito_Duende.txt
-Disculpa_Los_Malos_Pensamientos, Rock, PXNDX, Letras\Rock\PXNDX\Disculpa_Los_Malos_Pensamentos.txt
-Los_Malaventurados_No_Lloran, Rock, PXNDX, Letras\Rock\PXNDX\Los_Malaventurados_No_Lloran.txt
-Narcisista_Por_Excelencia, Rock, PXNDX, Letras\Rock\PXNDX\Narcisista_Por_Excelencia.txt
-Procedimientos_Para_Llegar_A_Un_Comun_Acuerdo, Rock, PXNDX,Letras\Rock\PXNDX\Procedimientos_Para_Llegar_A_Un_Comun_Acuerdo.txt
-De_Musica_Ligera, Rock, Soda_Stereo, Letras\Rock\Soda_Stereo\De_Musica_Ligera.txt
-En_La_Ciudad_De_La_Furia, Rock, Soda_Stereo, Letras\Rock\Soda_Stereo\En_La_Ciudad_De_La_Furia.txt
-Persiana_Americana, Rock, Soda_Stereo,Letras\Rock\Soda_Stereo\Persiana_Americana.txt
-Amor_Narcotico, Salsa, Chichi_Peralta, Letras\Salsa\Chichi_Peralta\Amor_Narcótico.txt
-La_Ciguapa, Salsa, Chichi_Peralta, Letras\Salsa\Chichi_Peralta\La_Ciguapa.txt
-Me_Enamore, Salsa, Chici_Peralta, Letras\Salsa\Chichi_Peralta\Me_Enamore.txt
-Procura, Salsa, Chichi_Peralta, Letras\Salsa\Chichi_Peralta\Procura.txt
-Besame, Salsa, Maelo_Ruiz,Letras\Salsa\Maelo_Ruiz\Besame_Asi.txt
-Te_Necesito_Mi_Amor, Salsa, Maelo_Ruiz,Letras\Salsa\Maelo_Ruiz\Te_Necesito_Mi_Amor.txt
-Te_Va_A_Doler, Salsa, Maelo_Ruiz, Letras\Salsa\Maelo_Ruiz\Te_Va_a_Doler.txt
-El_Gran_Varon, Salsa, Willie_Colon,Letras\Salsa\Willie_Colón\El_Gran_Varon.txt
-Pedro_Navaja, Salsa, Willie_Colon,Letras\Salsa\Willie_Colón\Pedro_Navaja.txt
-Talento_De_TV, Salsa, Willie_Colon,Letras\Salsa\Willie_Colón\Talento_De_TV.txt
-Madrigal, Soul, Danny_Rivera,Letras\Soul\Danny_Rivera\Madrigal.txt
-Amar_o_morir, Soul, Danny_Rivera,Letras\Soul\Danny_Rivera\Amar_o_morir.txt
-Diez_lágrimas, Soul, Danny_Rivera,Letras\Soul\Danny_Rivera\Diez_lagrimas.txt
-Bajo_un_palmar, Soul, Danny_Rivera,Letras\Soul\Danny_Rivera\Bajo_un_palmar.txt
-Algo_de_mi, Soul, India,Letras\Soul\India\Algo_de_mi.txt
-Amor_secreto, Soul, India,Letras\Soul\India\Amor_secreto.txt
-Costumbres, Soul, India,Letras\Soul\India\Costumbres.txt
-Amor_y_amanecer, Soul, Albita,Letras\Soul\Albita\Amor_y_amanecer.txt
-El_reto, Soul, Albita,Letras\Soul\Albita\El_reto.txt
-El_duende, Soul, Albita,Letras\Soul\Albita\El_duende.txt
-Volver, Tango, Carlos_Gardel, Letras\Tango\Carlos_Gardel\Volver.txt
-Cambalache, Tango, Carlos_Gardel,Letras\Tango\Carlos_Gardel\Cambalache.txt
-El_dia_que_me_quieras, Tango, Carlos_Gardel,Letras\Tango\Carlos_Gardel\El_dia_que_me_quieras.txt
-Nostalgias, Tango, Carlos_Gardel,Letras\Tango\Carlos_Gardel\Nostalgias.txt
-Somos_como_somos, Tango, Eladia_Blázquez,Letras\Tango\Eladia_Blazquez\Somos_como_somos.txt
-Honrar_la_vida, Tango, Eladia_Blázquez,Letras\Tango\Eladia_Blazquez\Honrar_la_vida.txt
-Con_las_alas_del_alma, Tango, Eladia_Blázquez,Letras\Tango\Eladia_Blazquez\Con_las_alas_del_alma.txt
-A_mi_manera, Tango, Cacho_Castaña, Letras\Tango\Cacho_Castaña\A_mi_manera.txt
-Cacho_de_Buenos_Aires, Tango, Cacho_Castaña,Letras\Tango\Cacho_Castaña\Cacho_de_Buenos_Aires.txt
-Garganta_con_arena, Tango, Cacho_Castaña,Letras\Tango\Cacho_Castaña\Garganta_con_arena.txt
-Peces_de_la_Ciudad, Trova, Joaquín_Sabina, Letras\Trova\Joaquín_Sabina\Peces_de_ciudad.txt
-Y_nos_dieron_las_diez, Trova, Joaquín_Sabina, Letras\Trova\Joaquín_Sabina\Y_nos_dieron_las_diez.txt
-Y_sin_embargo, Trova, Joaquín_Sabina, Letras\Trova\Joaquín_Sabina\Y_sin_embargo.txt
-19_dias_y_500_noches, Trova, Joaquín_Sabina, Letras\Trova\Joaquín_Sabina\19_dias_y_500_noches.txt
-El_vino, Trova, Alberto_Cortez, Letras\Trova\Alberto_Cortez\El_vino.txt
-Cuando_un_amigo_se_va, Trova, Alberto_Cortez, Letras\Trova\Alberto_Cortez\Cuando_un_amigo_se_va.txt
-Castillos_en_el_aire, Trova, Alberto_Cortez, Letras\Trova\Alberto_Cortez\Castillos_en_el_aire.txt
-Mi_viejo, Trova, Piero, Letras\Trova\Piero\Mi_viejo.txt
-La_creación, Trova, Piero, Letras\Trova\Piero\La_creacion.txt
-Llegando_llegaste, Trova, Piero, Letras\Trova\Piero\Llegando_llegaste.txt
+Si_una_vez,Cumbia,Selena, Letras/Cumbia/Selena/Si_una_vez.txt
+Amor_prohibido,Cumbia,Selena, Letras/Cumbia/Selena/Amor_prohibido.txt
+Como_la_flor,Cumbia,Selena, Letras/Cumbia/Selena/Como_la_flor.txt
+Mil_horas,Cumbia,La_sonora_dinamita, Letras/Cumbia/La_sonora_dinamita/Mil_horas.txt
+Que_nadie_sepa_mi_sufrir,Cumbia,La_sonora_dinamita, Letras/Cumbia/La_sonora_dinamita/Que_nadie_sepa_mi_sufrir.txt
+Mi_cucú,Cumbia,La_sonora_dinamita, Letras/Cumbia/La_sonora_dinamita/Mi_cucu.txt
+Otra_noche,Cumbia,Los_angeles_azules, Letras/Cumbia/Los_angeles_azules/Otra_noche.txt
+Amor_a_primera_vista,Cumbia,Los_angeles_azules, Letras/Cumbia/Los_angeles_azules/Amor_a_primera_vista.txt
+Como_te_voy_a_olvidar,Cumbia,Los_angeles_azules, Letras/Cumbia/Los_angeles_azules/Como_te_voy_a_olvidar.txt
+El_afilador,Cumbia,La_sonora_dinamita, Letras/Cumbia/La_sonora_dinamita/El_afilador.txt
+Culon_culito,Hip_Hop_Rap, Cartel_de_santa, Letras/Hip_Hop_Rap/Cartel_de_santa/Culon_culito.txt
+Extasis, Hip_Hop_Rap, Cartel_de_santa, Letras/Hip_Hop_Rap/Cartel_de_santa/Extasis.txt
+Si_te_vienen_a_contar, Hip_Hop_Rap, Cartel_de_santa, Letras/Hip_Hop_Rap/Cartel_de_santa/Si_te_vienen_a_contar.txt
+Todas_mueren_por_mi, Hip_Hop_Rap, Cartel_de_santa, Letras/Hip_Hop_Rap/Cartel_de_santa/Todas_mueren_por_mi.txt
+Bzrp_music_session_vol_49, Hip_Hop_Rap, Residente, Letras/Hip_Hop_Rap/Residente/Bzrp_music_session_vol_49.txt
+Rap_bruto, Hip_Hop_Rap, Residente, Letras/Hip_Hop_Rap/Residente/Rap_bruto.txt
+Rene, Hip_Hop_Rap, Residente, Letras/Hip_Hop_Rap/Residente/Rene.txt
+Asi_soy, Hip_Hop_Rap, Santa_fe_klan, Letras/Hip_Hop_Rap/Santa_fe_klan/Asi_soy.txt
+Cuidando_el_territorio, Hip_Hop_Rap, Santa_fe_klan, Letras/Hip_Hop_Rap/Santa_fe_klan/Cuidando_el_territorio.txt
+Te_ire_a_buscar, Hip_Hop_Rap, Santa_fe_klan, Letras/Hip_Hop_Rap/Santa_fe_klan/Te_ire_a_buscar.txt
+Entrega_total, Jazz, Andrea_basef, Letras/Jazz/Andrea_basef/Entrega_total.txt
+Fuego_bajo_tu_piel, Jazz, Andrea_basef, Letras/Jazz/Andrea_basef/Fuego_bajo_tu_piel.txt
+Regalame_esta_noche, Jazz, Andrea_basef, Letras/Jazz/Andrea_basef/Regalame_esta_noche.txt
+Adoro, Jazz, Julia_Vari, Letras/Jazz/Julia_vari/Adoro.txt
+Cancion_de_despedida, Jazz, Julia_Vari, Letras/Jazz/Julia_vari/Cancion_de_despedida.txt
+Yo_se_que_volveras, Jazz, Julia_Vari, Letras/Jazz/Julia_vari/Yo_se_que_volveras.txt
+Dia_nublado, Jazz, Iraida_noriega, Letras/Jazz/Iraida_noriega/Dia_nublado.txt
+Pobre_de_mi, Jazz, Iraida_noriega, Letras/Jazz/Iraida_noriega/Pobre_de_mi.txt
+Recurdos_de_Ypacarai, Jazz, Iraida_noriega, Letras/Jazz/Iraida_noriega/Recuerdos_de_Ypacarai.txt
+Tiempos_hibridos, Jazz, Iraida_noriega, Letras/Jazz/Iraida_noriega/Tiempo_hibridos.txt
+Que_locura_enamorarme_de_ti,Mambo,Eddie_santiago, Letras/Mambo/Eddie_santiago/Que_locura_enamorarme_de_ti.txt
+Tu_amigo_o_tu_amante,Mambo,Eddie_santiago, Letras/Mambo/Eddie_santiago/Tu_amigo_o_tu_amante.txt
+Lluvia,Mambo,Eddie_santiago, Letras/Mambo/Eddie_santiago/Lluvia.txt
+Mía,Mambo,Eddie_santiago,Letras/Mambo/Eddie_santiago/Mia.txt
+Tiburon_a_la_vista,Mambo,Los_wawanco,Letras/Mambo/Los_wawanco/Tiburon_a_la_vista.txt
+Yo_quiero_una_novia_pechugona,Mambo,Los_wawanco,Letras/Mambo/Los_wawanco/Yo_quiero_una_novia_pechugona.txt
+Palo_bonito,Mambo,Los_wawanco,Letras/Mambo/Los_wawanco/Palo_bonito.txt
+Amor_de_mis_amores,Mambo,Omara_portuondo, Letras/Mambo/Omara_portuondo/Amor_de_mis_amores.txt
+Veinte_años,Mambo,Omara_portuondo, Letras/Mambo/Omara_portuondo/Veinte_anios.txt
+Tal_vez,Mambo,Omara_portuondo, Letras/Mambo/Omara_portuondo/Tal_vez.txt
+El_africano, Merengue, Wilfrido_vargas, Letras/Merengue/Wilfrido_vargas/El_africano.txt
+El_baile_del_perrito,Merengue,  Wilfrido_vargas, Letras/Merengue/Wilfrido_vargas/El_baile_del_perrito.txt
+El_jardinero, Merengue, Wilfrido_vargas, Letras/Merengue/Wilfrido_vargas/El_jardinero.txt
+La_duenia_del_swing, Merengue, Los_hermanos_rosario, Letras/Merengue/Los_hermanos_rosario/La_duenia_del_swing.txt
+Rompecintura, Merengue, Los_hermanos_rosario, Letras/Merengue/Los_hermanos_rosario/Rompecintura.txt
+Video_clip, Merengue, Los_hermanos_rosario, Letras/Merengue/Los_hermanos_rosario/Video_clip.txt
+La_quiero_a_morir, Merengue, Sergio_vargas, Letras/Merengue/Sergio_vargas/La_quiero_a_morir.txt
+La_ventanita, Merengue, Sergio_vargas, Letras/Merengue/Sergio_vargas/La_ventanita.txt
+Ni_tu_ni_yo, Merengue, Sergio_vargas, Letras/Merengue/Sergio_vargas/Ni_tu_ni_yo.txt
+Si_algun_dia_la_ves, Merengue, Sergio_vargas, Letras/Merengue/Sergio_vargas/Si_algun_dia_la_ves.txt
+Amante_bandido, Pop, Ha_Ash, Letras/Pop/Ha_Ash/Amante_Bandido.txt
+Estes_donde_estes, Pop, Ha_Ash, Letras/Pop/Ha_Ash/Estes_Donde_Estes.txt
+Morena_mia, Pop, Ha_Ash, Letras/Pop/Ha_Ash/Morena_Mia.txt
+Que_hago_yo, Pop, Ha_Ash, Letras/Pop/Ha_Ash/Que_Hago_Yo.txt
+Con_quien_se_queda_el_perro, Pop, Jesse_joy, Letras/Pop/Jesse_Joy/Con_Quien_Se_Queda_El_Perro.txt
+Dueles, Pop, Jesse_Joy, Letras/Pop/Jesse_Joy/Dueles.txt
+Espacio_Sideral, Pop, Jesse_joy, Letras/Pop/Jesse_Joy/Espacio_Sideral.txt
+Noviembre_sin_ti, Pop, Reik, Letras/Pop/Reik/Noviembre_Sin_Ti.txt
+Que_vida_la_mia, Pop, Reik, Letras/Pop/Reik/Que_Vida_La_Mia.txt
+Yo_quisiera,Pop, Reik, Letras/Pop/Reik/Yo_Quisiera.txt
+Siempre_te_voy_a_querer, Ranchera, Calibre_50, Letras/Ranchera/Calibre_50/Siempre_te_voy_a_querer.txt
+A_la_antigüita, Ranchera, Calibre_50, Letras/Ranchera/Calibre_50/A_la_antiguita.txt
+Si_te_pudiera_mentir, Ranchera, Calibre_50, Letras/Ranchera/Calibre_50/Si_te_pudiera_mentir.txt
+Vas_a_llorar_por_mi,Ranchera,Banda_el_recodo, Letras/Ranchera/Banda_el_recodo/Vas_a_llorar_por_mi.txt
+La_mejor_de_todas,Ranchera,Banda_el_recodo, Letras/Ranchera/Banda_el_recodo/La_mejor_de_todas.txt
+Y_llegaste_tú,Ranchera,Banda_el_recodo, Letras/Ranchera/Banda_el_recodo/Y_llegaste_tu.txt
+Te_presumo, Ranchera, Banda_el_recodo, Letras/Ranchera/Banda_el_recodo/Te_presumo.txt
+Una_en_el_dia_y_la_otra_en_la_noche, Ranchera, Banda_Tierra_Sagrada, Letras/Ranchera/Banda_Tierra_Sagrada/Una_en_el_dia_y_la_otra_en_la_noche.txt
+El_bueno_y_el_malo, Ranchera, Banda_Tierra_Sagrada, Letras/Ranchera/Banda_Tierra_Sagrada/El_bueno_y_el_malo.txt
+Soy_un_desmadre, Ranchera,Banda_Tierra_Sagrada, Letras/Ranchera/Banda_Tierra_Sagrada/Soy_un_desmadre.txt
+La_corriente, Reggaeton, Bad_Bunny, Letras/Reggaeton/Bad_Bunny/La_Corriente.txt
+Que_malo, Reggaeton, Bad_Bunny, Letras/Reggaeton/Bad_Bunny/Que_Malo.txt
+Una_vez, Reggaeton, Bad_Bunny, Letras/Reggaeton/Bad_Bunny/Una_Vez.txt
+512, Reggaeton, Mora, Letras/Reggaeton/Mora/512.txt
+La_inocente, Reggaeton, Mora, Letras/Reggaeton/Mora/La_Inocente.txt
+Volando, Reggaeton, Mora, Letras/Reggaeton/Mora/Volando.txt
+Caramelo, Reggaeton, Ozuna, Letras/Reggaeton/Ozuna/Caramelo.txt
+Permitame, Reggaeton, Ozuna, Letras/Reggaeton/Ozuna/Permitame.txt
+Solos, Reggaeton, Ozuna, Letras/Reggaeton/Ozuna/Solos.txt
+Una_Locura, Reggaeton, Ozuna, Letras/Reggaeton/Ozuna/Una_Locura.txt
+Entre_Dos_Tierras, Rock, Heroes_Del_Silencio, Letras/Rock/Heroes_Del_Silencio/Entre_Dos_Tierras.txt
+La_Chispa_Adecuada, Rock, Heroes_Del_Silencio, Letras/Rock/Heroes_Del_Silencio/La_Chispa_Adecuada.txt
+Maldito_Duende, Rock, Heroes_Del_Silencio, Letras/Rock/Heroes_Del_Silencio/Maldito_Duende.txt
+Disculpa_Los_Malos_Pensamientos, Rock, PXNDX, Letras/Rock/PXNDX/Disculpa_Los_Malos_Pensamentos.txt
+Los_Malaventurados_No_Lloran, Rock, PXNDX, Letras/Rock/PXNDX/Los_Malaventurados_No_Lloran.txt
+Narcisista_Por_Excelencia, Rock, PXNDX, Letras/Rock/PXNDX/Narcisista_Por_Excelencia.txt
+Procedimientos_Para_Llegar_A_Un_Comun_Acuerdo, Rock, PXNDX,Letras/Rock/PXNDX/Procedimientos_Para_Llegar_A_Un_Comun_Acuerdo.txt
+De_Musica_Ligera, Rock, Soda_Stereo, Letras/Rock/Soda_Stereo/De_Musica_Ligera.txt
+En_La_Ciudad_De_La_Furia, Rock, Soda_Stereo, Letras/Rock/Soda_Stereo/En_La_Ciudad_De_La_Furia.txt
+Persiana_Americana, Rock, Soda_Stereo,Letras/Rock/Soda_Stereo/Persiana_Americana.txt
+Amor_Narcotico, Salsa, Chichi_Peralta, Letras/Salsa/Chichi_Peralta/Amor_Narcótico.txt
+La_Ciguapa, Salsa, Chichi_Peralta, Letras/Salsa/Chichi_Peralta/La_Ciguapa.txt
+Me_Enamore, Salsa, Chici_Peralta, Letras/Salsa/Chichi_Peralta/Me_Enamore.txt
+Procura, Salsa, Chichi_Peralta, Letras/Salsa/Chichi_Peralta/Procura.txt
+Besame, Salsa, Maelo_Ruiz,Letras/Salsa/Maelo_Ruiz/Besame_Asi.txt
+Te_Necesito_Mi_Amor, Salsa, Maelo_Ruiz,Letras/Salsa/Maelo_Ruiz/Te_Necesito_Mi_Amor.txt
+Te_Va_A_Doler, Salsa, Maelo_Ruiz, Letras/Salsa/Maelo_Ruiz/Te_Va_a_Doler.txt
+El_Gran_Varon, Salsa, Willie_Colon,Letras/Salsa/Willie_Colón/El_Gran_Varon.txt
+Pedro_Navaja, Salsa, Willie_Colon,Letras/Salsa/Willie_Colón/Pedro_Navaja.txt
+Talento_De_TV, Salsa, Willie_Colon,Letras/Salsa/Willie_Colón/Talento_De_TV.txt
+Madrigal, Soul, Danny_Rivera,Letras/Soul/Danny_Rivera/Madrigal.txt
+Amar_o_morir, Soul, Danny_Rivera,Letras/Soul/Danny_Rivera/Amar_o_morir.txt
+Diez_lágrimas, Soul, Danny_Rivera,Letras/Soul/Danny_Rivera/Diez_lagrimas.txt
+Bajo_un_palmar, Soul, Danny_Rivera,Letras/Soul/Danny_Rivera/Bajo_un_palmar.txt
+Algo_de_mi, Soul, India,Letras/Soul/India/Algo_de_mi.txt
+Amor_secreto, Soul, India,Letras/Soul/India/Amor_secreto.txt
+Costumbres, Soul, India,Letras/Soul/India/Costumbres.txt
+Amor_y_amanecer, Soul, Albita,Letras/Soul/Albita/Amor_y_amanecer.txt
+El_reto, Soul, Albita,Letras/Soul/Albita/El_reto.txt
+El_duende, Soul, Albita,Letras/Soul/Albita/El_duende.txt
+Volver, Tango, Carlos_Gardel, Letras/Tango/Carlos_Gardel/Volver.txt
+Cambalache, Tango, Carlos_Gardel,Letras/Tango/Carlos_Gardel/Cambalache.txt
+El_dia_que_me_quieras, Tango, Carlos_Gardel,Letras/Tango/Carlos_Gardel/El_dia_que_me_quieras.txt
+Nostalgias, Tango, Carlos_Gardel,Letras/Tango/Carlos_Gardel/Nostalgias.txt
+Somos_como_somos, Tango, Eladia_Blázquez,Letras/Tango/Eladia_Blazquez/Somos_como_somos.txt
+Honrar_la_vida, Tango, Eladia_Blázquez,Letras/Tango/Eladia_Blazquez/Honrar_la_vida.txt
+Con_las_alas_del_alma, Tango, Eladia_Blázquez,Letras/Tango/Eladia_Blazquez/Con_las_alas_del_alma.txt
+A_mi_manera, Tango, Cacho_Castaña, Letras/Tango/Cacho_Castaña/A_mi_manera.txt
+Cacho_de_Buenos_Aires, Tango, Cacho_Castaña,Letras/Tango/Cacho_Castaña/Cacho_de_Buenos_Aires.txt
+Garganta_con_arena, Tango, Cacho_Castaña,Letras/Tango/Cacho_Castaña/Garganta_con_arena.txt
+Peces_de_la_Ciudad, Trova, Joaquín_Sabina, Letras/Trova/Joaquín_Sabina/Peces_de_ciudad.txt
+Y_nos_dieron_las_diez, Trova, Joaquín_Sabina, Letras/Trova/Joaquín_Sabina/Y_nos_dieron_las_diez.txt
+Y_sin_embargo, Trova, Joaquín_Sabina, Letras/Trova/Joaquín_Sabina/Y_sin_embargo.txt
+19_dias_y_500_noches, Trova, Joaquín_Sabina, Letras/Trova/Joaquín_Sabina/19_dias_y_500_noches.txt
+El_vino, Trova, Alberto_Cortez, Letras/Trova/Alberto_Cortez/El_vino.txt
+Cuando_un_amigo_se_va, Trova, Alberto_Cortez, Letras/Trova/Alberto_Cortez/Cuando_un_amigo_se_va.txt
+Castillos_en_el_aire, Trova, Alberto_Cortez, Letras/Trova/Alberto_Cortez/Castillos_en_el_aire.txt
+Mi_viejo, Trova, Piero, Letras/Trova/Piero/Mi_viejo.txt
+La_creación, Trova, Piero, Letras/Trova/Piero/La_creacion.txt
+Llegando_llegaste, Trova, Piero, Letras/Trova/Piero/Llegando_llegaste.txt

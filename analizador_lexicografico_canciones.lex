@@ -41,7 +41,6 @@ YY_BUFFER_STATE include_stack[MAX_INCLUDE_DEPTH]; /* PILA para archivos */
 %option noyywrap
 %option outfile="analizador_lex_canciones.c"
 
-
 PALABRA             [A-ZÑÁÉÍÓÚa-zñáéíóú][A-ZÑÁÉÍÓÚa-zñáéíóú]+
 NO_CERO             [1-9]
 DIGITOS             [0-9]
@@ -94,7 +93,7 @@ URL                 {NOMBRE_DIAGONAL}*{NOMBRE}{EXTENSION}
 		{
 			yy_delete_buffer( YY_CURRENT_BUFFER );
 			yy_switch_to_buffer( include_stack[include_stack_ptr] );
-			printf("Cerrando el archivo %s\n",archivo_a_abrir );
+			printf("Cerrando el archivo %s\n",archivo_a_abrir1 );
 		}
 		BEGIN(INITIAL);
 	}
