@@ -288,12 +288,12 @@ static void yy_fatal_error YY_PROTO(( yyconst char msg[] ));
 
 #define YY_NUM_RULES 6
 #define YY_END_OF_BUFFER 7
-static yyconst short int yy_accept[36] =
+static yyconst short int yy_accept[32] =
     {   0,
         0,    0,    0,    0,    7,    5,    6,    4,    5,    6,
-        1,    3,    0,    0,    0,    0,    0,    1,    1,    2,
-        0,    1,    0,    0,    1,    0,    1,    0,    0,    0,
-        0,    0,    0,    0,    0
+        1,    3,    0,    0,    0,    0,    0,    1,    0,    2,
+        0,    1,    0,    1,    0,    0,    0,    0,    0,    0,
+        0
     } ;
 
 static yyconst int yy_ec[256] =
@@ -333,42 +333,40 @@ static yyconst int yy_meta[10] =
         1,    1,    1,    1,    1,    1,    1,    1,    1
     } ;
 
-static yyconst short int yy_base[38] =
+static yyconst short int yy_base[34] =
     {   0,
-        0,    8,   46,   45,   53,   56,   56,   56,   43,   42,
-       14,   41,   40,   39,   17,   38,   37,   23,   24,   28,
-       26,    0,   16,   12,   11,   29,    7,   35,   36,    0,
-        6,    5,    5,    3,   56,    3,    0
+        0,    8,   40,   39,   47,   50,   50,   50,   37,   36,
+       14,   35,   34,   33,   17,   26,   16,   23,   12,   11,
+       24,    0,    9,    6,   27,   33,    5,    0,    6,    3,
+       50,    3,    0
     } ;
 
-static yyconst short int yy_def[38] =
+static yyconst short int yy_def[34] =
     {   0,
-       36,   36,   37,   37,   35,   35,   35,   35,   35,   35,
-       35,   35,   35,   35,   35,   35,   35,   35,   11,   35,
-       11,   18,   15,   35,   11,   35,   19,   35,   19,   28,
-       26,   35,   29,   29,    0,   35,   35
+       32,   32,   33,   33,   31,   31,   31,   31,   31,   31,
+       31,   31,   31,   31,   31,   31,   31,   31,   31,   31,
+       11,   18,   31,   11,   31,   31,   31,   26,   31,   21,
+        0,   31,   31
     } ;
 
-static yyconst short int yy_nxt[66] =
+static yyconst short int yy_nxt[60] =
     {   0,
-        7,    7,    8,    6,   35,   35,   35,   35,    9,    7,
-        8,   35,   26,   34,   34,   35,    9,   13,   14,   25,
-       27,   15,   11,   18,   27,   19,   13,   14,   22,   22,
-       23,   24,   25,   26,   21,   28,   20,   29,   13,   14,
-       30,   30,   31,   32,   33,   21,   20,   17,   16,   12,
-       12,   11,   35,   10,   10,    5,   35,   35,   35,   35,
-       35,   35,   35,   35,   35
+        7,    7,    8,    6,   31,   31,   31,   31,    9,    7,
+        8,   30,   26,   30,   24,   18,    9,   13,   14,   20,
+       24,   15,   11,   18,   21,   19,   13,   14,   22,   22,
+       23,   25,   21,   26,   20,   27,   13,   14,   28,   28,
+       29,   17,   16,   12,   12,   11,   31,   10,   10,    5,
+       31,   31,   31,   31,   31,   31,   31,   31,   31
     } ;
 
-static yyconst short int yy_chk[66] =
+static yyconst short int yy_chk[60] =
     {   0,
-       37,    1,    1,   36,    0,    0,    0,    0,    1,    2,
-        2,   34,   33,   32,   31,   27,    2,   11,   11,   25,
-       24,   11,   11,   15,   23,   15,   18,   18,   18,   18,
-       18,   19,   19,   21,   21,   26,   20,   26,   28,   28,
-       28,   28,   28,   29,   29,   17,   16,   14,   13,   12,
-       10,    9,    5,    4,    3,   35,   35,   35,   35,   35,
-       35,   35,   35,   35,   35
+       33,    1,    1,   32,    0,    0,    0,    0,    1,    2,
+        2,   30,   29,   27,   24,   23,    2,   11,   11,   20,
+       19,   11,   11,   15,   17,   15,   18,   18,   18,   18,
+       18,   21,   21,   25,   16,   25,   26,   26,   26,   26,
+       26,   14,   13,   12,   10,    9,    5,    4,    3,   31,
+       31,   31,   31,   31,   31,   31,   31,   31,   31
     } ;
 
 static yy_state_type yy_last_accepting_state;
@@ -397,8 +395,7 @@ int include_stack_ptr = 0;
 #include <wchar.h>
 #include <locale.h>
 
-void analiza_palabra_encontrada(const char* palabra);
-void ordena_diccionario(void);
+
 
 #define MAX_PALABRAS 5000
 #define MAX_LONGITUD 200
@@ -409,14 +406,28 @@ char archivo_de_entrada[MAX_LONGITUD]="";
 char archivo_de_entrada1[MAX_LONGITUD]="";
 char archivo_a_abrir[MAX_LONGITUD]="";
 char archivo_a_abrir1[MAX_LONGITUD]="";
+char genero[MAX_LONGITUD]="";
+char artista[MAX_LONGITUD]="";
+unsigned int bandera = 0;
 
 typedef struct 
 {
+	char indice[MAX_LONGITUD];
 	unsigned int cantidad;
 	char palabra[MAX_LONGITUD];
 } elemento;
 
-elemento diccionario[MAX_PALABRAS];
+void analiza_palabra_encontrada(const char* palabra, const char* indice, elemento* arreglo, int contador_indice, int contador_analizar);
+void analiza_indice(const char* palabra);
+void ordena_diccionario(elemento* arreglo);
+
+elemento diccionarioGeneros[MAX_PALABRAS];
+elemento diccionarioArtistas[MAX_PALABRAS];
+
+unsigned int cuenta_palabras_generos_totales = 0;
+unsigned int cuenta_palabras_artistas_totales = 0;
+unsigned int cuenta_generos_totales = 0;
+unsigned int cuenta_artistas_totales = 0;
 unsigned int cuenta_palabras_totales = 0;
 
 #define MAX_INCLUDE_DEPTH 10
@@ -424,7 +435,7 @@ YY_BUFFER_STATE include_stack[MAX_INCLUDE_DEPTH]; /* PILA para archivos */
 
 #define ANALIZADOR 1
 
-#line 428 "analizador_lex_canciones.c"
+#line 439 "analizador_lex_canciones.c"
 
 /* Macros after this point can all be overridden by user definitions in
  * section 1.
@@ -575,11 +586,11 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 60 "analizador_lexicografico_canciones.lex"
+#line 71 "analizador_lexicografico_canciones.lex"
 
 
 
-#line 583 "analizador_lex_canciones.c"
+#line 594 "analizador_lex_canciones.c"
 
 	if ( yy_init )
 		{
@@ -630,13 +641,13 @@ yy_match:
 			while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 				{
 				yy_current_state = (int) yy_def[yy_current_state];
-				if ( yy_current_state >= 36 )
+				if ( yy_current_state >= 32 )
 					yy_c = yy_meta[(unsigned int) yy_c];
 				}
 			yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
 			++yy_cp;
 			}
-		while ( yy_base[yy_current_state] != 56 );
+		while ( yy_base[yy_current_state] != 50 );
 
 yy_find_action:
 		yy_act = yy_accept[yy_current_state];
@@ -664,14 +675,15 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 63 "analizador_lexicografico_canciones.lex"
+#line 74 "analizador_lexicografico_canciones.lex"
 {
-	 	printf("Nombre: %s\n", yytext);
+	 	analiza_indice(yytext);
+		bandera++;
 	  }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 67 "analizador_lexicografico_canciones.lex"
+#line 79 "analizador_lexicografico_canciones.lex"
 { /* ir a abrir el archivo include */
 			if ( include_stack_ptr >= MAX_INCLUDE_DEPTH )
 			{
@@ -698,7 +710,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(ANALIZADOR):
-#line 91 "analizador_lexicografico_canciones.lex"
+#line 103 "analizador_lexicografico_canciones.lex"
 { /* Si se detecta el fin de archivo se retorna */
 		if ( --include_stack_ptr < 0 )
 		    yyterminate();
@@ -713,28 +725,29 @@ case YY_STATE_EOF(ANALIZADOR):
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 103 "analizador_lexicografico_canciones.lex"
+#line 116 "analizador_lexicografico_canciones.lex"
 {
-	 	printf("Palabra: %s\n", yytext);
-	 	analiza_palabra_encontrada(yytext);
+	 	/*printf("Palabra: %s\n", yytext);*/
+	 	analiza_palabra_encontrada(yytext, diccionarioArtistas, artista, cuenta_artistas_totales, cuenta_palabras_artistas_totales);
+		analiza_palabra_encontrada(yytext, diccionarioGeneros, genero, cuenta_generos_totales, cuenta_palabras_generos_totales);
 	  }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 107 "analizador_lexicografico_canciones.lex"
+#line 121 "analizador_lexicografico_canciones.lex"
 
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 108 "analizador_lexicografico_canciones.lex"
+#line 122 "analizador_lexicografico_canciones.lex"
 printf("Caracter invalido %s\n",yytext);      
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 109 "analizador_lexicografico_canciones.lex"
+#line 123 "analizador_lexicografico_canciones.lex"
 ECHO;
 	YY_BREAK
-#line 738 "analizador_lex_canciones.c"
+#line 751 "analizador_lex_canciones.c"
 
 	case YY_END_OF_BUFFER:
 		{
@@ -1024,7 +1037,7 @@ static yy_state_type yy_get_previous_state()
 		while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 			{
 			yy_current_state = (int) yy_def[yy_current_state];
-			if ( yy_current_state >= 36 )
+			if ( yy_current_state >= 32 )
 				yy_c = yy_meta[(unsigned int) yy_c];
 			}
 		yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
@@ -1059,11 +1072,11 @@ yy_state_type yy_current_state;
 	while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 		{
 		yy_current_state = (int) yy_def[yy_current_state];
-		if ( yy_current_state >= 36 )
+		if ( yy_current_state >= 32 )
 			yy_c = yy_meta[(unsigned int) yy_c];
 		}
 	yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
-	yy_is_jam = (yy_current_state == 35);
+	yy_is_jam = (yy_current_state == 31);
 
 	return yy_is_jam ? 0 : yy_current_state;
 	}
@@ -1618,7 +1631,7 @@ int main()
 	return 0;
 	}
 #endif
-#line 109 "analizador_lexicografico_canciones.lex"
+#line 123 "analizador_lexicografico_canciones.lex"
 
 
 int main( int argc, char* argv[] )
@@ -1644,47 +1657,81 @@ int main( int argc, char* argv[] )
 		return(1);
 	}
 	yylex();
-	ordena_diccionario();
-	printf("Listado de palabras encontradas\n");
+	/*ordena_diccionario(diccionarioArtistas);*/
+	printf("Listado de palabras encontradas por artista\n");
 	for (unsigned int j = 1; j <= cuenta_palabras_totales; j++)
-		printf("% s tiene %d repeticiones en el archivo\n", diccionario[j].palabra, diccionario[j].cantidad);
+		printf("%s dice esta palabra % s un numero de %d veces\n",diccionarioArtistas[j].indice, diccionarioArtistas[j].palabra, diccionarioArtistas[j].cantidad);
+	printf("Listado de palabras encontradas por genero\n");
+	for (unsigned int j = 1; j <= cuenta_palabras_totales; j++)
+		printf("En el genero %s , se dice esta palabra % s un numero de %d veces\n",diccionarioGeneros[j].indice, diccionarioGeneros[j].palabra, diccionarioGeneros[j].cantidad);
+	printf("%d\n", cuenta_palabras_totales);
 	return(0);
 }
 
-void analiza_palabra_encontrada(const char* palabra)
+void analiza_palabra_encontrada(const char* palabra, const char* indice, elemento* arreglo, int contador_indice, int contador_analizar)
 {
 	bool esta = false;
+	bool esta_indice = false;
 	unsigned int posicion = 0;
 	char palabra_a_analizar[MAX_LONGITUD];
 	strcpy(palabra_a_analizar, palabra);
-	for (unsigned int indice = 0; palabra_a_analizar[indice] != '\0'; ++indice)
-		palabra_a_analizar[indice] = toupper(palabra_a_analizar[indice]);
-	for(unsigned int i = 1; i <= cuenta_palabras_totales; i++)
-		if (!strcmp(diccionario[i].palabra, palabra_a_analizar))
+	for (unsigned int indice_arreglo = 0; palabra_a_analizar[indice_arreglo] != '\0'; ++indice_arreglo)
+		palabra_a_analizar[indice_arreglo] = toupper(palabra_a_analizar[indice_arreglo]);
+	for(unsigned int i = 1; i <= contador_analizar; i++){
+		if (!strcmp(arreglo[i].palabra, palabra_a_analizar))
 		{
 			esta = true;
 			posicion = i;
 			break;
 		}
-	if (esta)
-		diccionario[posicion].cantidad++;
+	}	
+	if (esta_indice){	
+		if (esta){
+			arreglo[posicion].cantidad++;
+		}
+		else
+		{
+			contador_analizar++;
+			cuenta_palabras_totales++;
+			arreglo[contador_analizar].cantidad = 1;
+			strcpy(arreglo[contador_analizar].palabra, palabra_a_analizar);
+
+		}
+	} 
 	else
 	{
-		cuenta_palabras_totales++;
-		diccionario[cuenta_palabras_totales].cantidad = 1;
-		strcpy(diccionario[cuenta_palabras_totales].palabra, palabra_a_analizar);
+		contador_indice++;
+		strcpy(arreglo[contador_indice].indice, indice);
+	}
+	
+}
+
+void analiza_indice(const char* palabra)
+{
+	switch(bandera){
+		case 1:
+			strcpy(genero, palabra);
+			break;
+		case 2:
+			strcpy(artista, palabra);
+			break;
+		case 3:
+			bandera = 0;
+		default:
+			break;
 	}
 }
 
-void ordena_diccionario(void)
+void ordena_diccionario(elemento* arreglo)
 {
 	elemento elemento_temporal;
 	for (unsigned int i = 1; i <= cuenta_palabras_totales - 1; i++)
 		for (unsigned int j = i+1; j <= cuenta_palabras_totales; j++)
-			if (strcmp(diccionario[i].palabra, diccionario[j].palabra) > 0)
+			if (strcmp(arreglo[i].palabra, arreglo[j].palabra) > 0)
 			{
-				elemento_temporal = diccionario[i];
-				diccionario[i] = diccionario[j];
-				diccionario[j] = elemento_temporal;
+				elemento_temporal = arreglo[i];
+				arreglo[i] = arreglo[j];
+				arreglo[j] = elemento_temporal;
 			}
+	printf("hola");
 }
