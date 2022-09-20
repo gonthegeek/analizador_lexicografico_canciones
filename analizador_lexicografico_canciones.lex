@@ -166,7 +166,13 @@ void analiza_palabra_encontrada(const char* palabra, const char* indice, element
 	for (unsigned int indice_arreglo = 0; palabra_a_analizar[indice_arreglo] != '\0'; ++indice_arreglo)
 		palabra_a_analizar[indice_arreglo] = toupper(palabra_a_analizar[indice_arreglo]);
 	for(unsigned int i = 1; i <= contador_analizar; i++){
-		if (!strcmp(arreglo[i].palabra, palabra_a_analizar))
+		if(!strcmp(arreglo[i].indice, indice)){
+				esta_indice = true;
+				posicion = i;
+				
+				break;
+			}
+		else if (!strcmp(arreglo[i].palabra, palabra_a_analizar))
 		{
 			esta = true;
 			posicion = i;
