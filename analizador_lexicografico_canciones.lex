@@ -33,10 +33,10 @@ typedef struct
 	char palabra[MAX_LONGITUD];
 } elemento;
 
-void analiza_palabra_encontrada(const char* palabra, const char* indice, elemento* arreglo, int contador_indice, int contador_analizar);
+void analiza_palabra_artista_encontrada(const char* palabra);
 void analiza_indice(const char* palabra);
-void ordena_diccionario(elemento* arreglo);
-
+/* void ordena_diccionario(elemento* arreglo);
+ */
 elemento diccionarioGeneros[MAX_PALABRAS];
 elemento diccionarioArtistas[MAX_PALABRAS];
 
@@ -44,7 +44,6 @@ unsigned int cuenta_palabras_generos_totales = 0;
 unsigned int cuenta_palabras_artistas_totales = 0;
 unsigned int cuenta_generos_totales = 0;
 unsigned int cuenta_artistas_totales = 0;
-unsigned int cuenta_palabras_totales = 0;
 
 #define MAX_INCLUDE_DEPTH 10
 YY_BUFFER_STATE include_stack[MAX_INCLUDE_DEPTH]; /* PILA para archivos */
@@ -115,9 +114,9 @@ URL                 {NOMBRE_DIAGONAL}*{NOMBRE}{EXTENSION}
 
 <ANALIZADOR>{PALABRA} {
 	 	/*printf("Palabra: %s\n", yytext);*/
-	 	analiza_palabra_encontrada(yytext, diccionarioArtistas, artista, cuenta_artistas_totales, cuenta_palabras_artistas_totales);
-		analiza_palabra_encontrada(yytext, diccionarioGeneros, genero, cuenta_generos_totales, cuenta_palabras_generos_totales);
-	  }
+	 	analiza_palabra_artista_encontrada(yytext);
+/* 		analiza_palabra_encontrada(yytext, diccionarioGeneros, genero, cuenta_generos_totales, cuenta_palabras_generos_totales);
+ */	  }
 ","
 .       printf("Caracter invalido %s\n",yytext);      
 %%
@@ -147,32 +146,34 @@ int main( int argc, char* argv[] )
 	yylex();
 	/*ordena_diccionario(diccionarioArtistas);*/
 	printf("Listado de palabras encontradas por artista\n");
-	for (unsigned int j = 1; j <= cuenta_palabras_totales; j++)
+	for (unsigned int j = 1; j <= cuenta_palabras_artistas_totales; j++)
 		printf("%s dice esta palabra % s un numero de %d veces\n",diccionarioArtistas[j].indice, diccionarioArtistas[j].palabra, diccionarioArtistas[j].cantidad);
-	printf("Listado de palabras encontradas por genero\n");
+	/* printf("Listado de palabras encontradas por genero\n");
 	for (unsigned int j = 1; j <= cuenta_palabras_totales; j++)
-		printf("En el genero %s , se dice esta palabra % s un numero de %d veces\n",diccionarioGeneros[j].indice, diccionarioGeneros[j].palabra, diccionarioGeneros[j].cantidad);
-	printf("%d\n", cuenta_palabras_totales);
+		printf("En el genero %s , se dice esta palabra % s un numero de %d veces\n",diccionarioGeneros[j].indice, diccionarioGeneros[j].palabra, diccionarioGeneros[j].cantidad); */
+	printf("%d\n", cuenta_palabras_artistas_totales);
 	return(0);
 }
 
-void analiza_palabra_encontrada(const char* palabra, const char* indice, elemento* arreglo, int contador_indice, int contador_analizar)
+void analiza_palabra_artista_encontrada(const char* palabra)
 {
 	bool esta = false;
 	bool esta_indice = false;
 	unsigned int posicion = 0;
 	char palabra_a_analizar[MAX_LONGITUD];
 	strcpy(palabra_a_analizar, palabra);
-	for (unsigned int indice_arreglo = 0; palabra_a_analizar[indice_arreglo] != '\0'; ++indice_arreglo)
-		palabra_a_analizar[indice_arreglo] = toupper(palabra_a_analizar[indice_arreglo]);
-	for(unsigned int i = 1; i <= contador_analizar; i++){
-		if(!strcmp(arreglo[i].indice, indice)){
+	for (unsigned int indice = 0; palabra_a_analizar[indice] != '\0'; ++indice){
+		palabra_a_analizar[indice] = toupper(palabra_a_analizar[indice]);
+
+	}
+	for(unsigned int i = 1; i <= cuenta_palabras_artistas_totales; i++){
+		printf("%d",i);
+		if(!strcmp(diccionarioArtistas[i].indice, artista)){
 				esta_indice = true;
 				posicion = i;
-				
 				break;
 			}
-		else if (!strcmp(arreglo[i].palabra, palabra_a_analizar))
+		else if (!strcmp(diccionarioArtistas[i].palabra, palabra_a_analizar))
 		{
 			esta = true;
 			posicion = i;
@@ -181,21 +182,20 @@ void analiza_palabra_encontrada(const char* palabra, const char* indice, element
 	}	
 	if (esta_indice){	
 		if (esta){
-			arreglo[posicion].cantidad++;
+			diccionarioArtistas[posicion].cantidad++;
 		}
 		else
 		{
-			contador_analizar++;
-			cuenta_palabras_totales++;
-			arreglo[contador_analizar].cantidad = 1;
-			strcpy(arreglo[contador_analizar].palabra, palabra_a_analizar);
+			cuenta_palabras_artistas_totales++;
+			diccionarioArtistas[cuenta_palabras_artistas_totales].cantidad = 1;
+			strcpy(diccionarioArtistas[cuenta_palabras_artistas_totales].palabra, palabra_a_analizar);
 
 		}
 	} 
 	else
 	{
-		contador_indice++;
-		strcpy(arreglo[contador_indice].indice, indice);
+		cuenta_artistas_totales++;
+		strcpy(diccionarioArtistas[cuenta_artistas_totales].indice, artista);
 	}
 	
 }
@@ -216,7 +216,7 @@ void analiza_indice(const char* palabra)
 	}
 }
 
-void ordena_diccionario(elemento* arreglo)
+/* void ordena_diccionario(elemento* arreglo)
 {
 	elemento elemento_temporal;
 	for (unsigned int i = 1; i <= cuenta_palabras_totales - 1; i++)
@@ -228,4 +228,4 @@ void ordena_diccionario(elemento* arreglo)
 				arreglo[j] = elemento_temporal;
 			}
 	printf("hola");
-}
+} */

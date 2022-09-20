@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Una por una las conté
 Fueron diez lágrimas
 Diez lágrimas que derramé
@@ -13,4 +14,21 @@ Que no pude más
 Por cada una
 Tendrás un ano de soledad
 Que serán diez anos que pasaras
+=======
+Una por una las conté
+Fueron diez lágrimas
+Diez lágrimas que derramé
+Por ti
+Cuando supe que te ibas
+De mi vida
+Y dejabas sangrando
+Mi pobre alma herida
+Una por una yo trate
+Que no brotara
+Pero fue tan grande mi dolor
+Que no pude más
+Por cada una
+Tendrás un ano de soledad
+Que serán diez anos que pasaras
+>>>>>>> master
 Sin mi amor

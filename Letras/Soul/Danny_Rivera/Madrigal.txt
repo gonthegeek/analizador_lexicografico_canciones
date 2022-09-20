@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Estando contigo
 Me olvido de todo y de mi
 Parece que todo lo tengo
@@ -27,4 +28,35 @@ Una herida mortal
 Yo contigo no siento el sonar
 De la lluvia y el viento
 Porque llevo tu amor en mi pecho
+=======
+Estando contigo
+Me olvido de todo y de mi
+Parece que todo lo tengo
+Teniendote a ti
+Y no siento este mal
+Que me agobia
+Y que llevo conmigo
+Arruinando esta vida
+Que tengo y no puedo vivir
+Eres luz que ilumina
+Las noches en mi largo camino
+Y es por eso
+Que frente al destino
+No quiero vivir
+Una rosa en tu pelo
+Parece una estrella en el cielo
+Y en el viento parece un acento
+Tu voz musical
+Y parece un destello de luz
+La medalla en tu cuello
+Al menor movimiento
+De tu cuerpo al andar
+Yo a tu lado no siento las horas
+Que van con el tiempo
+Ni me acuerdo que llevo en mi pecho
+Una herida mortal
+Yo contigo no siento el sonar
+De la lluvia y el viento
+Porque llevo tu amor en mi pecho
+>>>>>>> master
 Como un madrigal

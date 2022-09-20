@@ -417,10 +417,10 @@ typedef struct
 	char palabra[MAX_LONGITUD];
 } elemento;
 
-void analiza_palabra_encontrada(const char* palabra, const char* indice, elemento* arreglo, int contador_indice, int contador_analizar);
+void analiza_palabra_artista_encontrada(const char* palabra);
 void analiza_indice(const char* palabra);
-void ordena_diccionario(elemento* arreglo);
-
+/* void ordena_diccionario(elemento* arreglo);
+ */
 elemento diccionarioGeneros[MAX_PALABRAS];
 elemento diccionarioArtistas[MAX_PALABRAS];
 
@@ -428,14 +428,13 @@ unsigned int cuenta_palabras_generos_totales = 0;
 unsigned int cuenta_palabras_artistas_totales = 0;
 unsigned int cuenta_generos_totales = 0;
 unsigned int cuenta_artistas_totales = 0;
-unsigned int cuenta_palabras_totales = 0;
 
 #define MAX_INCLUDE_DEPTH 10
 YY_BUFFER_STATE include_stack[MAX_INCLUDE_DEPTH]; /* PILA para archivos */
 
 #define ANALIZADOR 1
 
-#line 439 "analizador_lex_canciones.c"
+#line 438 "analizador_lex_canciones.c"
 
 /* Macros after this point can all be overridden by user definitions in
  * section 1.
@@ -586,11 +585,11 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 71 "analizador_lexicografico_canciones.lex"
+#line 70 "analizador_lexicografico_canciones.lex"
 
 
 
-#line 594 "analizador_lex_canciones.c"
+#line 593 "analizador_lex_canciones.c"
 
 	if ( yy_init )
 		{
@@ -675,7 +674,7 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 74 "analizador_lexicografico_canciones.lex"
+#line 73 "analizador_lexicografico_canciones.lex"
 {
 	 	analiza_indice(yytext);
 		bandera++;
@@ -683,7 +682,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 79 "analizador_lexicografico_canciones.lex"
+#line 78 "analizador_lexicografico_canciones.lex"
 { /* ir a abrir el archivo include */
 			if ( include_stack_ptr >= MAX_INCLUDE_DEPTH )
 			{
@@ -710,7 +709,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(ANALIZADOR):
-#line 103 "analizador_lexicografico_canciones.lex"
+#line 102 "analizador_lexicografico_canciones.lex"
 { /* Si se detecta el fin de archivo se retorna */
 		if ( --include_stack_ptr < 0 )
 		    yyterminate();
@@ -725,29 +724,29 @@ case YY_STATE_EOF(ANALIZADOR):
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 116 "analizador_lexicografico_canciones.lex"
+#line 115 "analizador_lexicografico_canciones.lex"
 {
 	 	/*printf("Palabra: %s\n", yytext);*/
-	 	analiza_palabra_encontrada(yytext, diccionarioArtistas, artista, cuenta_artistas_totales, cuenta_palabras_artistas_totales);
-		analiza_palabra_encontrada(yytext, diccionarioGeneros, genero, cuenta_generos_totales, cuenta_palabras_generos_totales);
-	  }
+	 	analiza_palabra_artista_encontrada(yytext);
+/* 		analiza_palabra_encontrada(yytext, diccionarioGeneros, genero, cuenta_generos_totales, cuenta_palabras_generos_totales);
+ */	  }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 121 "analizador_lexicografico_canciones.lex"
+#line 120 "analizador_lexicografico_canciones.lex"
 
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 122 "analizador_lexicografico_canciones.lex"
+#line 121 "analizador_lexicografico_canciones.lex"
 printf("Caracter invalido %s\n",yytext);      
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 123 "analizador_lexicografico_canciones.lex"
+#line 122 "analizador_lexicografico_canciones.lex"
 ECHO;
 	YY_BREAK
-#line 751 "analizador_lex_canciones.c"
+#line 750 "analizador_lex_canciones.c"
 
 	case YY_END_OF_BUFFER:
 		{
@@ -1631,7 +1630,7 @@ int main()
 	return 0;
 	}
 #endif
-#line 123 "analizador_lexicografico_canciones.lex"
+#line 122 "analizador_lexicografico_canciones.lex"
 
 
 int main( int argc, char* argv[] )
@@ -1659,26 +1658,34 @@ int main( int argc, char* argv[] )
 	yylex();
 	/*ordena_diccionario(diccionarioArtistas);*/
 	printf("Listado de palabras encontradas por artista\n");
-	for (unsigned int j = 1; j <= cuenta_palabras_totales; j++)
+	for (unsigned int j = 1; j <= cuenta_palabras_artistas_totales; j++)
 		printf("%s dice esta palabra % s un numero de %d veces\n",diccionarioArtistas[j].indice, diccionarioArtistas[j].palabra, diccionarioArtistas[j].cantidad);
-	printf("Listado de palabras encontradas por genero\n");
+	/* printf("Listado de palabras encontradas por genero\n");
 	for (unsigned int j = 1; j <= cuenta_palabras_totales; j++)
-		printf("En el genero %s , se dice esta palabra % s un numero de %d veces\n",diccionarioGeneros[j].indice, diccionarioGeneros[j].palabra, diccionarioGeneros[j].cantidad);
-	printf("%d\n", cuenta_palabras_totales);
+		printf("En el genero %s , se dice esta palabra % s un numero de %d veces\n",diccionarioGeneros[j].indice, diccionarioGeneros[j].palabra, diccionarioGeneros[j].cantidad); */
+	printf("%d\n", cuenta_palabras_artistas_totales);
 	return(0);
 }
 
-void analiza_palabra_encontrada(const char* palabra, const char* indice, elemento* arreglo, int contador_indice, int contador_analizar)
+void analiza_palabra_artista_encontrada(const char* palabra)
 {
 	bool esta = false;
 	bool esta_indice = false;
 	unsigned int posicion = 0;
 	char palabra_a_analizar[MAX_LONGITUD];
 	strcpy(palabra_a_analizar, palabra);
-	for (unsigned int indice_arreglo = 0; palabra_a_analizar[indice_arreglo] != '\0'; ++indice_arreglo)
-		palabra_a_analizar[indice_arreglo] = toupper(palabra_a_analizar[indice_arreglo]);
-	for(unsigned int i = 1; i <= contador_analizar; i++){
-		if (!strcmp(arreglo[i].palabra, palabra_a_analizar))
+	for (unsigned int indice = 0; palabra_a_analizar[indice] != '\0'; ++indice){
+		palabra_a_analizar[indice] = toupper(palabra_a_analizar[indice]);
+
+	}
+	for(unsigned int i = 1; i <= cuenta_palabras_artistas_totales; i++){
+		printf("%d",i);
+		if(!strcmp(diccionarioArtistas[i].indice, artista)){
+				esta_indice = true;
+				posicion = i;
+				break;
+			}
+		else if (!strcmp(diccionarioArtistas[i].palabra, palabra_a_analizar))
 		{
 			esta = true;
 			posicion = i;
@@ -1687,21 +1694,20 @@ void analiza_palabra_encontrada(const char* palabra, const char* indice, element
 	}	
 	if (esta_indice){	
 		if (esta){
-			arreglo[posicion].cantidad++;
+			diccionarioArtistas[posicion].cantidad++;
 		}
 		else
 		{
-			contador_analizar++;
-			cuenta_palabras_totales++;
-			arreglo[contador_analizar].cantidad = 1;
-			strcpy(arreglo[contador_analizar].palabra, palabra_a_analizar);
+			cuenta_palabras_artistas_totales++;
+			diccionarioArtistas[cuenta_palabras_artistas_totales].cantidad = 1;
+			strcpy(diccionarioArtistas[cuenta_palabras_artistas_totales].palabra, palabra_a_analizar);
 
 		}
 	} 
 	else
 	{
-		contador_indice++;
-		strcpy(arreglo[contador_indice].indice, indice);
+		cuenta_artistas_totales++;
+		strcpy(diccionarioArtistas[cuenta_artistas_totales].indice, artista);
 	}
 	
 }
@@ -1722,7 +1728,7 @@ void analiza_indice(const char* palabra)
 	}
 }
 
-void ordena_diccionario(elemento* arreglo)
+/* void ordena_diccionario(elemento* arreglo)
 {
 	elemento elemento_temporal;
 	for (unsigned int i = 1; i <= cuenta_palabras_totales - 1; i++)
@@ -1734,4 +1740,4 @@ void ordena_diccionario(elemento* arreglo)
 				arreglo[j] = elemento_temporal;
 			}
 	printf("hola");
-}
+} */

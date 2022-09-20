@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Se peinaba a lo garçon
 La viajera que quiso enseñarme a besar
 En la Gare d'Austerlitz
@@ -55,4 +56,63 @@ Mentiras que ganan juicios tan sumarios que envilecen
 El cristal de los acuarios de los peces de ciudad
 Que perdieron las agallas
 En un banco de morralla
+=======
+Se peinaba a lo garçon
+La viajera que quiso enseñarme a besar
+En la Gare d'Austerlitz
+Primavera de un amor
+Amarillo y frugal como el Sol
+Del veranillo de San Martín
+Hay quien dice que fui yo
+El primero en olvidar
+Cuando en un si bemol de Jacques Brel
+Conocí a mademoiselle Amsterdam
+En la fatua Nueva York
+Da más sombra que los limoneros
+La Estatua de la Libertad
+Pero en Desolation Row
+Las sirenas de los petroleros
+No dejan reír ni volar
+Y en el coro de Babel
+Desafina un español
+No hay más ley que la ley del tesoro
+En las minas del rey Salomón
+Y desafiando el oleaje, sin timón ni timonel
+Por mis sueños va, ligero de equipaje
+Sobre un cascarón de nuez, mi corazón de viaje
+Luciendo los tatuajes de un pasado bucanero
+De un velero al abordaje, de un
+De un no te quiero querer
+Y cómo huir cuando no quedan islas para naufragar
+Al país donde los sabios se retiran
+Del agravio de buscar labios que sacan de quicio
+Mentiras que ganan juicios tan sumarios que envilecen
+El cristal de los acuarios de los peces de ciudad
+Que mordieron el anzuelo
+Que bucean a ras del suelo
+Que no merecen nadar
+El dorado era un champú
+La virtud, unos brazos en cruz
+El pecado, una página web
+En Comala, comprendí
+Que al lugar donde has sido feliz
+No debieras tratar de volver
+Cuando en vuelo regular
+Pisé el cielo de Madrid
+Me esperaba una recién casada
+Que no se acordaba de mí
+Y desafiando el oleaje, sin timón ni timonel
+Por mis sueños va, ligero de equipaje
+Sobre un cascarón de nuez, mi corazón de viaje
+Luciendo los tatuajes de un pasado bucanero
+De un velero al abordaje, de un
+De un liguero de mujer
+Y cómo huir cuando no quedan islas para naufragar
+Al país donde los sabios se retiran
+Del agravio de buscar labios que sacan de quicio
+Mentiras que ganan juicios tan sumarios que envilecen
+El cristal de los acuarios de los peces de ciudad
+Que perdieron las agallas
+En un banco de morralla
+>>>>>>> master
 En una playa sin mar

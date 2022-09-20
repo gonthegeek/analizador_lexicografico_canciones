@@ -1,10 +1,5 @@
 ﻿  analizador_lex_canciones.c
-analizador_lexicografico_canciones.lex(98,26): warning C4018: '>': no coinciden signed/unsigned
-analizador_lexicografico_canciones.lex(118,58): warning C4133: 'función': tipos incompatibles, de 'elemento [5000]' a 'const char *'
-analizador_lexicografico_canciones.lex(118,67): warning C4133: 'función': tipos incompatibles, de 'char [200]' a 'elemento *'
-analizador_lexicografico_canciones.lex(119,56): warning C4133: 'función': tipos incompatibles, de 'elemento [5000]' a 'const char *'
-analizador_lexicografico_canciones.lex(119,64): warning C4133: 'función': tipos incompatibles, de 'char [200]' a 'elemento *'
-analizador_lex_canciones.c(985,1): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
-analizador_lex_canciones.c(1152,28): warning C4244: 'inicializando': conversión de '__int64' a 'int'; posible pérdida de datos
-analizador_lexicografico_canciones.lex(168,28): warning C4018: '<=': no coinciden signed/unsigned
+analizador_lexicografico_canciones.lex(97,26): warning C4018: '>': no coinciden signed/unsigned
+analizador_lex_canciones.c(984,1): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+analizador_lex_canciones.c(1151,28): warning C4244: 'inicializando': conversión de '__int64' a 'int'; posible pérdida de datos
   compila_examen.vcxproj -> D:\UP\Compiladores\analizador_lexicografico_canciones\compila_examen\x64\Debug\compila_examen.exe
