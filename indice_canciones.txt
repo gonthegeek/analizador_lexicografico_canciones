@@ -8,7 +8,7 @@ Baby_me_vuelves_loco, Blues, Guadalupe_Plata, Letras/Blues/Guadalupe_Plata/Baby_
 Calle_24, Blues, Guadalupe_Plata, Letras/Blues/Guadalupe_Plata/Calle_24.txt
 Milana, Blues, Guadalupe_Plata, Letras/Blues/Guadalupe_Plata/Milana.txt
 Que_he_sacado_con_quererte, Blues, Guadalupe_Plata, Letras/Blues/Guadalupe_Plata/Que_he_sacado_con_quererte.txt
-Abrázame_Muy_Fuerte,Bolero,Juan Gabriel, Letras/Boleros/Juan_gabriel/Abrazame_muy_fuerte.txt
+Abrázame_Muy_Fuerte,Bolero,Juan_Gabriel, Letras/Boleros/Juan_gabriel/Abrazame_muy_fuerte.txt
 Hasta_que_te_conocí,Bolero,Juan_Gabriel, Letras/Boleros/Juan_gabriel/Hasta_que_te_conoci.txt
 Buenos_dias_señor_sol,Bolero,Juan_Gabriel, Letras/Boleros/Juan_gabriel/Buenos_dias_señor_sol.txt
 Amor_Eterno,Bolero,Juan_Gabriel, Letras/Boleros/Juan_gabriel/Amor_eterno.txt

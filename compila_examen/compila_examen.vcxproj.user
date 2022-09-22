@@ -5,7 +5,7 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LocalDebuggerCommandArguments>D:\UP\Compiladores\analizador_lexicografico_canciones indice_canciones_prueba.txt</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>D:\UP\Compiladores\analizador_lexicografico_canciones indice_canciones.txt</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
