@@ -1684,10 +1684,11 @@ void analiza_palabra_por_artista_encontrada(const char* palabra)
 		if (!strcmp(diccionarioArtistas[i].indice, artista))
 		{
 			esta_indice = true;
-				if (!strcmp(diccionarioArtistas[i].palabra, palabra_a_analizar))
+			for(unsigned int j = 0; j <= cuenta_palabras_artistas_totales ; j++)
+				if (!strcmp(diccionarioArtistas[j].palabra, palabra_a_analizar))
 				{
 					esta = true;
-					posicion = i;
+					posicion = j;
 					break;
 				}
 		}
