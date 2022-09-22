@@ -20,10 +20,10 @@ Odiame,Bolero,Julio_jaramillo, Letras/Boleros/Julio_jaramillo/Odiame.txt
 El_aguacate,Bolero,Julio_jaramillo, Letras/Boleros/Julio_jaramillo/El_aguacate.txt
 Corazon_de_melon, Bossa_Nova, Hermanas_Benitez, Letras/Bossa_Nova/Hermanas_Benitez/Corazon_de_melon.txt 
 El_pollo_de_carlitos, Bossa_Nova, Hermanas_Benitez, Letras/Bossa_Nova/Hermanas_Benitez/El_pollo_de_carlitos.txt 
-Te_adorare_mas_y_mas, Bossa_Nova, Hermanas_Benitez, Letras/Bossa_Nova/Hermanas_Benitez/Te_adorare_mas_y_mas.txt 
-Cartagenera, Bossa_Nova, Los_3_sudamericanos, Letras/Bossa_Nova/Los_3_sudamericanos/Cartagenera.txt
-Gibraltarenia, Bossa_Nova, Los_3_sudamericanos, Letras/Bossa_Nova/Los_3_sudamericanos/Gibraltarenia.txt
-Virgencita_de_caacupe, Bossa_Nova, Los_3_sudamericanos, Letras/Bossa_Nova/Los_3_sudamericanos/Virgencita_de_caacupe.txt
+Te_adorare_mas_mas, Bossa_Nova, Hermanas_Benitez, Letras/Bossa_Nova/Hermanas_Benitez/Te_adorare_mas_mas.txt 
+Cartagenera, Bossa_Nova, Los_sudamericanos, Letras/Bossa_Nova/Los_sudamericanos/Cartagenera.txt
+Gibraltarenia, Bossa_Nova, Los_sudamericanos, Letras/Bossa_Nova/Los_sudamericanos/Gibraltarenia.txt
+Virgencita_de_caacupe, Bossa_Nova, Los_sudamericanos, Letras/Bossa_Nova/Los_sudamericanos/Virgencita_de_caacupe.txt
 Es_tan_facil_romper_un_conrazón, Bossa_Nova, Valeria, Letras/Bossa_Nova/Valeria/Es_tan_facil_romper_un_conrazón.txt 
 Fuego_lento, Bossa_Nova, Valeria, Letras/Bossa_Nova/Valeria/Fuego_lento.txt 
 Jamas_te_dejare, Bossa_Nova, Valeria, Letras/Bossa_Nova/Valeria/Jamas_te_dejare.txt 
@@ -88,7 +88,7 @@ Espacio_Sideral, Pop, Jesse_joy, Letras/Pop/Jesse_Joy/Espacio_Sideral.txt
 Noviembre_sin_ti, Pop, Reik, Letras/Pop/Reik/Noviembre_Sin_Ti.txt
 Que_vida_la_mia, Pop, Reik, Letras/Pop/Reik/Que_Vida_La_Mia.txt
 Yo_quisiera,Pop, Reik, Letras/Pop/Reik/Yo_Quisiera.txt
-Siempre_te_voy_a_querer, Ranchera, Calibre_50, Letras/Ranchera/Calibre_50/Siempre_te_voy_a_querer.txt
+Siempre_te_voy_querer, Ranchera, Calibre_50, Letras/Ranchera/Calibre_50/Siempre_te_voy_querer.txt
 La_antigüita, Ranchera, Calibre_50, Letras/Ranchera/Calibre_50/La_antiguita.txt
 Si_te_pudiera_mentir, Ranchera, Calibre_50, Letras/Ranchera/Calibre_50/Si_te_pudiera_mentir.txt
 Vas_llorar_por_mi,Ranchera,Banda_el_recodo, Letras/Ranchera/Banda_el_recodo/Vas_llorar_por_mi.txt
@@ -151,8 +151,8 @@ Garganta_con_arena, Tango, Cacho_Castaña,Letras/Tango/Cacho_Castaña/Garganta_c
 Peces_de_la_Ciudad, Trova, Joaquín_Sabina, Letras/Trova/Joaquín_Sabina/Peces_de_ciudad.txt
 Nos_dieron_las_diez, Trova, Joaquín_Sabina, Letras/Trova/Joaquín_Sabina/Nos_dieron_las_diez.txt
 Sin_embargo, Trova, Joaquín_Sabina, Letras/Trova/Joaquín_Sabina/Sin_embargo.txt
-19_dias_500_noches, Trova, Joaquín_Sabina, Letras/Trova/Joaquín_Sabina/19_dias_500_noches.txt
-sEl_vino, Trova, Alberto_Cortez, Letras/Trova/Alberto_Cortez/El_vino.txt
+Dias_500_noches, Trova, Joaquín_Sabina, Letras/Trova/Joaquín_Sabina/Diecinueve_dias_quinientas_noches.txt
+El_vino, Trova, Alberto_Cortez, Letras/Trova/Alberto_Cortez/El_vino.txt
 Cuando_un_amigo_se_va, Trova, Alberto_Cortez, Letras/Trova/Alberto_Cortez/Cuando_un_amigo_se_va.txt
 Castillos_en_el_aire, Trova, Alberto_Cortez, Letras/Trova/Alberto_Cortez/Castillos_en_el_aire.txt
 Mi_viejo, Trova, Piero, Letras/Trova/Piero/Mi_viejo.txt
