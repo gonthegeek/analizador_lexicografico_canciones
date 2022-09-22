@@ -729,7 +729,7 @@ case 3:
 YY_RULE_SETUP
 #line 118 "analizador_lexicografico_canciones.lex"
 {
-	 	printf("Palabra: %s\n", yytext);
+	 	//printf("Palabra: %s\n", yytext);
 	 	analiza_palabra_por_artista_encontrada(yytext);
 /* 		
 analiza_palabra_por_artista_encontrada(yytext, diccionarioGeneros, genero, cuenta_generos_totales, cuenta_palabras_generos_totales);
@@ -1660,7 +1660,7 @@ int main( int argc, char* argv[] )
 		return(1);
 	}
 	yylex();
-	printf("\nOrdenando diccionario\nOrdenando");
+	//printf("\nOrdenando diccionario\nOrdenando");
 /* 	ordena_diccionarios();
  */	printf("\nListado de palabras encontradas por artista\n");
 	for (unsigned int j = 1; j <= cuenta_palabras_artistas_totales; j++)
@@ -1680,32 +1680,35 @@ void analiza_palabra_por_artista_encontrada(const char* palabra)
 	strcpy(palabra_a_analizar, palabra);
 	for (unsigned int cuenta_palabras_artistas_totales = 0; palabra_a_analizar[cuenta_palabras_artistas_totales] != '\0'; ++cuenta_palabras_artistas_totales)
 		palabra_a_analizar[cuenta_palabras_artistas_totales] = toupper(palabra_a_analizar[cuenta_palabras_artistas_totales]);
-	for(unsigned int i = 0; i <= cuenta_palabras_artistas_totales; i++){
-		if (!strcmp(diccionarioArtistas[i].indice, artista))
-		{
-			esta_indice = true;
-			for(unsigned int j = 0; j <= cuenta_palabras_artistas_totales ; j++)
-				if (!strcmp(diccionarioArtistas[j].palabra, palabra_a_analizar))
+	for(unsigned int i = 1; i <= cuenta_palabras_artistas_totales; i++){
+		if (!strcmp(diccionarioArtistas[i].palabra, palabra_a_analizar)){
+			if(!strcmp(diccionarioArtistas[i].indice, artista))
 				{
-					esta = true;
-					posicion = j;
-					break;
+					esta_indice = true;
 				}
+			esta = true;
+			posicion = i;
+			break;
 		}
 	}
-	if (esta)	
-		diccionarioArtistas[posicion].cantidad++;
-	else
-	{
-		if(esta_indice){
-			diccionarioArtistas[cuenta_palabras_artistas_totales].cantidad = 1;
-			strcpy(diccionarioArtistas[cuenta_palabras_artistas_totales].palabra, palabra_a_analizar);
-			cuenta_palabras_artistas_totales++;
+
+	if(esta_indice){
+		if(esta){
+			diccionarioArtistas[posicion].cantidad++;
 		}
+	}
+	else{
+		if(cuenta_palabras_artistas_totales <1){
+			strcpy(diccionarioArtistas[0].indice, artista);
+			diccionarioArtistas[0].cantidad = 1;
+			strcpy(diccionarioArtistas[0].palabra, palabra_a_analizar);
+			}
 		else{
 			strcpy(diccionarioArtistas[cuenta_palabras_artistas_totales].indice, artista);
-			cuenta_palabras_artistas_totales++;
-		}
+			diccionarioArtistas[cuenta_palabras_artistas_totales].cantidad = 1;
+			strcpy(diccionarioArtistas[cuenta_palabras_artistas_totales].palabra, palabra_a_analizar);
+			}
+		cuenta_palabras_artistas_totales++;
 	}
 }
 
