@@ -1667,17 +1667,17 @@ int main( int argc, char* argv[] )
 	fprintf(fptArtistas,"Artista,Palabra,Cantidad\n");
 	fptGeneros=fopen("ListadoGeneros.csv", "a+");
 	fprintf(fptGeneros,"Genero,Palabra,Cantidad\n");
-	/*printf("\nOrdenando diccionario\nOrdenando");
-	ordena_diccionarios(); */
+	printf("\nOrdenando diccionario\nOrdenando");
+	ordena_diccionarios();
 	printf("\nListado de palabras encontradas por artista\n");
 	for (unsigned int j = 1; j <= cuenta_palabras_artistas; j++){
 		fprintf(fptArtistas,"%s,%s,%d\n",diccionarioArtistas[j].indice, diccionarioArtistas[j].palabra, diccionarioArtistas[j].cantidad);
-		printf("Indice %d", j); 
+		printf("Indice %d\n", j); 
 	}
 	printf("Listado de palabras encontradas por genero\n");
 	for (unsigned int j = 1; j <= cuenta_palabras_generos; j++){
 		fprintf(fptGeneros,"%s,%s,%d\n", diccionarioGeneros[j].indice, diccionarioGeneros[j].palabra, diccionarioGeneros[j].cantidad);
-		printf("Indice %d", j); 
+		printf("Indice %d\n", j); 
 	}
 	fclose(fptArtistas);
 	fclose(fptGeneros);
@@ -1789,21 +1789,32 @@ void analiza_indice_canciones(const char* palabra)
 void ordena_diccionarios(void)
 {
 	elemento elemento_temporal;
+	unsigned int contador=0;
+	unsigned int contador1=0;
+
 	for (unsigned int i = 1; i <= cuenta_palabras_artistas - 1; i++)
 		for (unsigned int j = i+1; j <= cuenta_palabras_artistas; j++)
+			if(!strcmp(diccionarioArtistas[i].indice,diccionarioArtistas[j].indice)){
 			if (strcmp(diccionarioArtistas[i].palabra, diccionarioArtistas[j].palabra) > 0)
 			{
-				printf(".");
+				printf("Artista %d vez", contador);
 				elemento_temporal = diccionarioArtistas[i];
 				diccionarioArtistas[i] = diccionarioArtistas[j];
 				diccionarioArtistas[j] = elemento_temporal;
+				contador++;
+			}
 			}
 	for (unsigned int i = 1; i <= cuenta_palabras_generos - 1; i++)
 		for (unsigned int j = i+1; j <= cuenta_palabras_generos; j++)
+			if(!strcmp(diccionarioGeneros[i].indice,diccionarioGeneros[j].indice)){
 			if (strcmp(diccionarioGeneros[i].palabra, diccionarioGeneros[j].palabra) > 0)
 			{
+				printf("Genero %d vez", contador1);
+
 				elemento_temporal = diccionarioGeneros[i];
 				diccionarioGeneros[i] = diccionarioGeneros[j];
 				diccionarioGeneros[j] = elemento_temporal;
+				contador1;
 			}
 } 
+}
